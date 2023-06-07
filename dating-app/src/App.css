@@ -165,6 +165,8 @@ html {
 
 body {
   background: var(--backgroundColor);
+  /* background: linear-gradient(to bottom right, #cb98cb, #3174ac);  */
+  /* background: rgb(244, 223, 223); */
   font-family: var(--bodyFont);
   font-weight: 400;
   line-height: 1.75;
@@ -401,19 +403,20 @@ ul {
   max-width: var(--max-width);
   margin: 0 auto;
   display: grid;
-  gap: 2rem;
+  gap: 2.0rem;
   margin-bottom: 4rem;
 }
 @media screen and (min-width: 576px) {
   .container {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
   }
 }
 .card {
-  background: var(--clr-white);
+  background: rgb(207, 204, 204);
+  /* background: var(--clr-white); */
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
-  padding: 0.5rem 2.0rem;
+  padding: 0.3rem 1.0rem;
   text-align: center;
 }
 .card img {
@@ -428,6 +431,12 @@ ul {
   margin-bottom: 1rem;
   font-size: 0.85rem;
   color: var(--clr-grey-5);
+}
+.card p {
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  color: var(--clr-grey-5);
+  text-align: center;
 }
 .card button {
   font-size: 1rem;
@@ -466,7 +475,12 @@ ul {
   font-size: 1rem;
   cursor: pointer;
 }
-
+.icon-wrapper {
+  position: absolute;
+  top: 20px; /* Adjust the value to align the icon vertically */
+  left: 50px; /* Adjust the value to align the icon horizontally */
+  font-size: 40px;
+}
 
 /*
 =============== 

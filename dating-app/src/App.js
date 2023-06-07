@@ -6,6 +6,7 @@ import Login from './components/Login';
 import Signup from './components/SignUp';
 import MainPage from './components/MainPage'
 import Messages from './components/Messages'
+import Profile from './components/Profile';
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="Signup" element={<Signup/>} />
         <Route path='main' element ={<MainPage />} />
         <Route path='messages' element ={<Messages />} />
+        <Route path='/profile/:id' element ={<Profile/>}/>
         <Route path="/" element={<Login/>} />
         <Route path="*" element={<Error/>} />
       </Routes>
