@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Error from './Components/Error';
-import Login from './Components/Login';
-import Signup from './Components/Signup';
+import Error from './components/Errors';
+import Login from './components/Login';
+import Signup from './components/SignUp';
+import MainPage from './components/MainPage'
 function App() {
 
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes> 
         <Route path="Login" element={<Login/>} />
         <Route path="Signup" element={<Signup/>} />
+        <Route path='main' element ={<MainPage />} />
      
         <Route path="*" element={<Error/>} />
       </Routes>
