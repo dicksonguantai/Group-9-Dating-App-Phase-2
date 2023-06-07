@@ -17,11 +17,12 @@ const User = ({ id,name,bio,location, job,deleteUser,photos }) => {
       <button className='btn btn-transparent mt' onClick={() =>setliked(!like)} >
         {!like?<BsHeartFill />:<h4>LIKED</h4>}
       </button>
+      {like?
       <Link to='/messages' className='link'>
       <button className='btn btn-transparent '  >
         <BsFillChatFill/>
       </button>
-      </Link>
+      </Link>:null}
     </article>
   );
 };
