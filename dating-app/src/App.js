@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import "./App.css"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -46,6 +47,24 @@ function App() {
 
 </Routes>}
       {/* // <Login setIsLoggedIn={setIsLoggedIn}/>} */}
+=======
+import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Error from './components/Error';
+import Login from './components/Login';
+import Signup from './components/Signup';
+function App() {
+
+  return (
+    <BrowserRouter>
+      <Routes> 
+        <Route path="Login" element={<Login/>} />
+        <Route path="Signup" element={<Signup/>} />
+     
+        <Route path="*" element={<Error/>} />
+      </Routes>
+     
+>>>>>>> 0e5a2c99 (changes to the loinsignupcode)
     </BrowserRouter>
   );
 }
