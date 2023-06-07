@@ -1,17 +1,16 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Error from './Components/Error';
-import Login from './Components/Login';
-import Signup from './Components/Signup';
+import Errors from './components/Errors';
+import Login from './components/Login';
+import Signup from './components/SignUp';
 function App() {
 
   return (
     <BrowserRouter>
-      <Routes> 
+      <Routes>
         <Route path="Login" element={<Login/>} />
         <Route path="Signup" element={<Signup/>} />
-     
-        <Route path="*" element={<Error/>} />
+        <Route path="*" element={<Errors/>} />
       </Routes>
      
     </BrowserRouter>
