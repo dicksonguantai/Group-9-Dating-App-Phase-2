@@ -1,36 +1,50 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 
 function Messages() {
-  const [chats, setChats] = useState([]);
+  const [chatData, setChatData] = useState([]);
+  const [selectedChat, setSelectedChat] = useState(null);
 
   useEffect(() => {
-    const fetchChats = async () => {
+    const fetchData = async () => {
       try {
-        const response = await axios.get('API_ENDPOINT_URL');
-        setChats(response.data);
+        const response = await fetch('db.json');
+        const data = await response.json();
+        setChatData(data);
       } catch (error) {
-        console.log(error);
+        console.error('Error fetching chat data:', error);
       }
     };
 
-    fetchChats();
+    fetchData();
   }, []);
 
-  // Render user profile photos window
-  const userProfilePhotos = chats.map((chat) => (
-    <img key={chat.id} src={chat.userProfilePhoto} alt="User Profile" />
-  ));
-
-  // Render chat messages
-  const renderChatMessages = () => {
-    // Logic for rendering chat messages
+  const handleChatClick = (chat) => {
+    setSelectedChat(chat);
   };
 
+  const userProfilePhotos = chatData.map((chat) => (
+    <img
+      key={chat.id}
+      src={chat.userProfilePhoto}
+      alt="User Profile"
+      onClick={() => handleChatClick(chat)}
+    />
+  ));
+
   return (
-    <div>
-      <div className="user-profile-photos-window">{userProfilePhotos}</div>
-      <div className="chat-window">{renderChatMessages()}</div>
+    <div className="messages-container">
+      <div className="user-profile-photos">{userProfilePhotos}</div>
+      <div className="chat-window">
+        {selectedChat ? (
+          <div className="maximized-chat">
+            {/* Render the selected chat details and messages */}
+            <h2>{selectedChat.name}</h2>
+            {/* ... Render the messages */}
+          </div>
+        ) : (
+          <div className="empty-chat">No chat selected</div>
+        )}
+      </div>
     </div>
   );
 }
