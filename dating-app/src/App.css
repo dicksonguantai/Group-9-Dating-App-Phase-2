@@ -164,8 +164,8 @@ html {
 }
 
 body {
-  background: var(--backgroundColor);
-  /* background: linear-gradient(to bottom right, #cb98cb, #3174ac);  */
+  /* background: var(--backgroundColor); */
+  background: linear-gradient(to bottom right, #d2ec7639, #3174ac); 
   /* background: rgb(244, 223, 223); */
   font-family: var(--bodyFont);
   font-weight: 400;
@@ -266,7 +266,8 @@ ul {
   display: inline-block;
 }
 .btn:hover {
-  background: var(--red-light);
+  /* background: var(--red-light); */
+  background: var(--blue-light);
   color: var(--red-dark);
   box-shadow: var(--shadow-3);
 }
@@ -418,6 +419,7 @@ ul {
   box-shadow: var(--light-shadow);
   padding: 0.3rem 1.0rem;
   text-align: center;
+  
 }
 .card img {
   width: 130px;

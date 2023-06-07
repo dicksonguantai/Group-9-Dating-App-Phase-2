@@ -15,7 +15,9 @@ const User = ({ id,name,bio,location, job,deleteUser,photos }) => {
       <h5>{location}</h5>
       <h4>{job}</h4>
       <p>{bio}</p>
-      <button className='btn btn-transparent mt' onClick={() =>setliked(!like)} >
+      <button className='btn btn-transparent mt' onClick={(e) =>{
+        e.preventDefault()
+        setliked(!like)}} >
         {!like?<BsHeartFill />:<><BsEmojiHeartEyes/> <h4>LIKED</h4></>}
       </button>
       {like?
