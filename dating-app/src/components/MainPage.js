@@ -1,1 +1,10 @@
-//Add main page code 
+//Add main page code
+import React from 'react'
+
+function MainPage() {
+  return (
+    <div>MainPage</div>
+  )
+}
+
+export default MainPage
