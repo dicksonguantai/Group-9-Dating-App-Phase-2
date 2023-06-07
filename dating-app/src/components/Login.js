@@ -15,25 +15,28 @@ const Login = ({ setUser }) => {
 
 
   return (
-    <section className='section'>``
-      <form className='form' onSubmit={handleSubmit}>
-        <h5>login</h5>
-        <div className='form-row'>
+    <section className='section' style={{border:"0.5px solid #F8F6F4",height:"300px",width:"250px", paddingLeft:"80px", marginRight:"400px", marginLeft:"440px", marginTop:"30px"}}>
+    <div style={{width:"250px", height:"2px", background:"#B04759", marginRight:"200px", padding:"0px"}}></div>
+      <form className='form' onSubmit={handleSubmit} style={{alignContent:"center"}}>
+        <h2 style={{marginTop:"20px", marginLeft:"2px", fontFamily: "cursive"}}>LOVE LIVES HERE</h2>
+        <div className='form-row' style={{marginTop:"40px"}}>
           <label htmlFor='name' className='form-label'>
-            name
-          </label>
+            Name
+          </label><br/>
           <input
             type='text'
             className='form-input'
             id='name'
             value={name}
+            
             onChange={(e) => setName(e.target.value)}
           />
         </div>
-        <div className='form-row'>
+        <div className='form-row'
+        style={{marginTop:"30px"}}>
           <label htmlFor='email' className='form-label'>
-            email
-          </label>
+            Email
+          </label><br/>
           <input
             type='email'
             className='form-input'
@@ -42,7 +45,9 @@ const Login = ({ setUser }) => {
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
-        <button type='submit' className='btn btn-block'>
+        <button type='submit' className='btn btn-block'
+        style={{marginTop:"30px", marginLeft:"1px", width:"170px", background:"#B04759", boxShadow:"unset"}}
+        >
           login
         </button>
       </form>
