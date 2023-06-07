@@ -3,7 +3,7 @@ import React from 'react'
 
 function Messages() {
   return (
-    <div>Messages</div>
+    <div style={{marginTop:"100px"}}>Messages</div>
   )
 }
 

@@ -3,7 +3,9 @@ import React from 'react'
 
 function MainPage() {
   return (
-    <div>MainPage</div>
+    <div style={{marginTop:"200px"}}>MainPage
+    <h1>welcome</h1>
+    </div>
   )
 }
 
