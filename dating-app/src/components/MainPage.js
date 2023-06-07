@@ -3,8 +3,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import UsersList from './UsersList';
 
-// import Wrapper from './styles/main.styles.js';
-// import { Navbar, UsersList } from '../components';
+// import { Navbar} from '../components';
 
 import data from '../data';
 

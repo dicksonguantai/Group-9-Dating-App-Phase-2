@@ -9,7 +9,7 @@
         "location": "Nairobi",
         "bio": "I love exploring new places and trying different cuisines.",
         "photos": [
-          "https://example.com/photo1.jpg",
+          "https://xsgames.co/randomusers/avatar.php?g=male",
           "https://example.com/photo2.jpg"
         ],
         "height": 180,
@@ -27,7 +27,8 @@
           "gender": "female",
           "location": "Any",
           "occupation": "Any",
-          "diet": "No preference"
+          "diet": "No preference",
+          "likedUsers":[]
         }
       },
       {
@@ -39,8 +40,8 @@
         "location": "Mombasa",
         "bio": "Passionate about yoga and exploring new destinations.",
         "photos": [
-          "https://example.com/photo3.jpg",
-          "https://example.com/photo4.jpg"
+            "https://xsgames.co/randomusers/avatar.php?g=female",     
+            "https://example.com/photo4.jpg"
         ],
         "height": 165,
         "education": "Master's Degree",
@@ -69,8 +70,8 @@
         "location": "Nairobi",
         "bio": "Passionate about sports and exploring different cultures.",
         "photos": [
-          "https://example.com/photo5.jpg",
-          "https://example.com/photo6.jpg"
+            "https://xsgames.co/randomusers/avatar.php?g=male",
+            "https://example.com/photo6.jpg"
         ],
         "height": 175,
         "education": "Bachelor's Degree",
@@ -99,8 +100,8 @@
         "location": "Mombasa",
         "bio": "An artist who enjoys immersing in books and creating beautiful artwork.",
         "photos": [
-          "https://example.com/photo7.jpg",
-          "https://example.com/photo8.jpg"
+            "https://xsgames.co/randomusers/avatar.php?g=female",
+            "https://example.com/photo8.jpg"
         ],
         "height": 160,
         "education": "Bachelor's Degree",
@@ -129,8 +130,8 @@
         "location": "Nairobi",
         "bio": "A tech enthusiast who enjoys experimenting with new recipes and watching movies.",
         "photos": [
-          "https://example.com/photo9.jpg",
-          "https://example.com/photo10.jpg"
+            "https://xsgames.co/randomusers/avatar.php?g=male",
+            "https://example.com/photo10.jpg"
         ],
         "height": 178,
         "education": "Master's Degree",
@@ -159,8 +160,8 @@
         "location": "Nakuru",
         "bio": "Passionate about capturing beautiful moments through photography and exploring new dance forms.",
         "photos": [
-          "https://example.com/photo11.jpg",
-          "https://example.com/photo12.jpg"
+            "https://xsgames.co/randomusers/avatar.php?g=female",
+            "https://example.com/photo12.jpg"
         ],
         "height": 170,
         "education": "Bachelor's Degree",
@@ -189,8 +190,8 @@
         "location": "Mombasa",
         "bio": "A gamer and technology enthusiast who enjoys listening to music.",
         "photos": [
-          "https://example.com/photo13.jpg",
-          "https://example.com/photo14.jpg"
+            "https://xsgames.co/randomusers/avatar.php?g=male",
+            "https://example.com/photo14.jpg"
         ],
         "height": 175,
         "education": "Bachelor's Degree",
@@ -219,8 +220,8 @@
         "location": "Nairobi",
         "bio": "An artist who finds joy in painting, reading, and listening to music.",
         "photos": [
-          "https://example.com/photo15.jpg",
-          "https://example.com/photo16.jpg"
+            "https://xsgames.co/randomusers/avatar.php?g=female",
+            "https://example.com/photo16.jpg"
         ],
         "height": 163,
         "education": "Bachelor's Degree",
@@ -249,8 +250,8 @@
         "location": "Nairobi",
         "bio": "Passionate about sports, music, and experimenting with new recipes.",
         "photos": [
-          "https://example.com/photo17.jpg",
-          "https://example.com/photo18.jpg"
+            "https://xsgames.co/randomusers/avatar.php?g=male",
+            "https://example.com/photo18.jpg"
         ],
         "height": 180,
         "education": "Master's Degree",
@@ -279,8 +280,8 @@
         "location": "Nanyuki",
         "bio": "Passionate about capturing beautiful moments through photography and exploring new destinations through travel.",
         "photos": [
-          "https://example.com/photo19.jpg",
-          "https://example.com/photo20.jpg"
+            "https://xsgames.co/randomusers/avatar.php?g=female",
+            "https://example.com/photo20.jpg"
         ],
         "height": 168,
         "education": "Bachelor's Degree",

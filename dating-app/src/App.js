@@ -5,6 +5,7 @@ import Error from './components/Errors';
 import Login from './components/Login';
 import Signup from './components/SignUp';
 import MainPage from './components/MainPage'
+import Messages from './components/Messages'
 function App() {
 
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="Login" element={<Login/>} />
         <Route path="Signup" element={<Signup/>} />
         <Route path='main' element ={<MainPage />} />
+        <Route path='messages' element ={<Messages />} />
         <Route path="/" element={<Login/>} />
         <Route path="*" element={<Error/>} />
       </Routes>
