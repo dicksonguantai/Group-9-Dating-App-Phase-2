@@ -14,7 +14,7 @@ const Signup = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Perform signup logic here, such as making an API call
+    
     console.log('Signup clicked');
   };
 
