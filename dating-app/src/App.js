@@ -50,9 +50,9 @@ function App() {
 =======
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Error from './components/Error';
+import Error from './components/Errors';
 import Login from './components/Login';
-import Signup from './components/Signup';
+import Signup from './components/SignUp';
 function App() {
 
   return (
