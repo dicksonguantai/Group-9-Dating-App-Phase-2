@@ -37,9 +37,8 @@ function Messages() {
       <div className="chat-window">
         {selectedChat ? (
           <div className="maximized-chat">
-            {/* Render the selected chat details and messages */}
             <h2>{selectedChat.name}</h2>
-            {/* ... Render the messages */}
+            {/* Render the messages between the two users */}
           </div>
         ) : (
           <div className="empty-chat">No chat selected</div>
