@@ -1,12 +1,13 @@
-//Add messages page code 
+//Add messages page code
 import React from 'react'
 
 function Messages() {
+
+
   return (
-    <div>
-      
+    <div style={{marginTop:"100px"}}>Messages
+
     </div>
   )
 }
-
 export default Messages
