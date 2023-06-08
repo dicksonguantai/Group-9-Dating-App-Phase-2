@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-const Login = ({ setUser }) => {
+const Login = ({ setIsLoggedIn }) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
 
@@ -9,17 +9,19 @@ const Login = ({ setUser }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!name || !email) return;
-    setUser({ name: name, email: email });
-    navigate('/dashboard');
+    setIsLoggedIn(true)
+    // setUser({ name: name, email: email });
+    navigate('/main');
   };
 
 
   return (
-    <section className='section' style={{border:"0.5px solid #F8F6F4",height:"300px",width:"250px", paddingLeft:"80px", marginRight:"400px", marginLeft:"440px", marginTop:"30px"}}>
-    <div style={{width:"250px", height:"2px", background:"#B04759", marginRight:"200px", padding:"0px"}}></div>
-      <form className='form' onSubmit={handleSubmit} style={{alignContent:"center"}}>
-        <h2 style={{marginTop:"20px", marginLeft:"2px", fontFamily: "cursive"}}>LOVE LIVES HERE</h2>
-        <div className='form-row' style={{marginTop:"40px"}}>
+    <section className='section'>''
+      <form className='form' onSubmit={handleSubmit}>
+        <h5>login</h5>
+        <div className='form-row'>
+
+
           <label htmlFor='name' className='form-label'>
             Name
           </label><br/>
