@@ -1,12 +1,42 @@
-//Add main page code
-import React from 'react'
+//Add main page code 
+import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import UsersList from './UsersList';
 
-function MainPage() {
+// import { Navbar} from '../components';
+
+import data from '../data';
+
+const userDate = JSON.parse(localStorage.getItem('userData'));
+
+const Main = () => {
+  const [user, setUser] = useState(userDate);
+  const [users, setUsers] = useState(data.users);
+
+//   const navigate = useNavigate();
+
+//   useEffect(() => {
+//     if (!user) {    
+//       navigate('/');
+//     }
+//   }, [navigate, user]);
+
+
+  const delUser = (id) => {
+    const newUsers = users.filter((user) => user.id !== id);
+    setUsers(newUsers);
+  };
+
   return (
-    <div style={{marginTop:"200px"}}>MainPage
-    <h1>welcome</h1>
-    </div>
-  )
-}
+    <>
+      <main className='dashboard'>
+        {/* <Navbar user={user} setUser={setUser} /> */}
+        <div className='dashboard-page'>
+          <UsersList users={users} deleteUser={delUser} />
+        </div>
+      </main>
+    </>
+  );
+};
 
-export default MainPage
+export default Main;

@@ -6,8 +6,8 @@ function Messages() {
 
   return (
     <div style={{marginTop:"100px"}}>Messages
+
     </div>
   )
 }
-
 export default Messages
