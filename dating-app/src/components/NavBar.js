@@ -42,7 +42,7 @@ function NavBar({cards, setCards}) {
                 Signout
             </NavLink>|
             <label style={{marginLeft:"150px"}}>Search location:</label>
-            <input type='search' placeholder="Location"  style={{marginLeft:"10px" ,background:"#82222b"}}onChange={handleFilter}/>
+            <input type='search' placeholder="Location"  style={{marginLeft:"10px" ,background:""}}onChange={handleFilter}/>
             </div>
             <hr style={{marginTop:"20px"}}></hr>
         </nav>
