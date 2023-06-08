@@ -29,13 +29,13 @@ function NavBar({cards, setCards}) {
             >
                 Messages
             </NavLink>
-            <NavLink to="/blog"
+            {/* <NavLink to="/blog"
             id="nav"
             style={{marginRight:"50px", textDecoration:"none", color:"#6f0d11"}}
             activeStyle={{color:"gray", textDecoration:"underline"}}
             >
                 Blog
-            </NavLink>
+            </NavLink> */}
             <NavLink to="/logout"
             style={{marginRight:"10px", textDecoration:"none", color:"#6f0d11"}}
             onClick={handleSignout}>
