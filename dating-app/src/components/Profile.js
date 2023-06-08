@@ -2,6 +2,11 @@ import React from 'react'
 import data from '../data';
 import { useNavigate, useParams } from 'react-router';
 import {BsFillCaretLeftFill} from 'react-icons/bs'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
+import {Carousel} from 'react-responsive-carousel'
+
+
 function Profile() {
 
 
@@ -19,20 +24,28 @@ const {name,age,photos,height,bodyType,interests} =userData //destructure the sp
     }
   return (
     <>
-    <article className='card'>
-        <div onClick={(e)=>{
-        e.preventDefault()    
-        goBack(e)}} className='icon-wrapper'><BsFillCaretLeftFill/></div>
+    <article className='cardProfile'>
+       
+
+      <Carousel>
+
       <img src={photos[0]} alt={name} />
+      <img src={photos[0]} alt={name} />
+
+      </Carousel>
+      <div onClick={(e)=>{
+        e.preventDefault()    
+        goBack(e)}} className='icon-wrapper'><BsFillCaretLeftFill/>
+        </div>
+
       <h4>{name}</h4>
       <h5>age:{age} height:{height} cm</h5>
       <h4>{bodyType}</h4>
       <h4>{interests[0]}, {interests[1]}, {interests[2]}</h4>
 
-      
       {/* <button className='btn btn-transparent mt' onClick={() =>setliked(!like)} >
         {!like?<BsHeartFill />:<h4>LIKED</h4>}
-      </button>
+      </button>  
       {like?
       <Link to='/messages' className='link'>
       <button className='btn btn-transparent '  >

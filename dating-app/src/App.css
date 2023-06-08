@@ -412,6 +412,7 @@ ul {
     grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
   }
 }
+
 .card {
   background: rgb(207, 204, 204);
   /* background: var(--clr-white); */
@@ -420,6 +421,21 @@ ul {
   padding: 0.3rem 1.0rem;
   text-align: center;
   
+}
+
+.cardProfile {
+  background: rgb(207, 204, 204);
+  /* background: var(--clr-white); */
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  text-align: center;
+  
+}
+
+.cardProfile img {
+  display: grid;
+  border-radius: 1%;
+  margin-bottom: 0.75rem;
 }
 .card img {
   width: 130px;
@@ -479,6 +495,7 @@ ul {
 }
 .icon-wrapper {
   position: absolute;
+  color: #010917;
   top: 20px; /* Adjust the value to align the icon vertically */
   left: 50px; /* Adjust the value to align the icon horizontally */
   font-size: 40px;
