@@ -8,7 +8,7 @@ const blogPost1 = {
     categories: ["Self-improvement & Personal Growth"],
     tags: ["Peace, Self-Love"],
     content: "In the world of dating, personal growth and self-improvement play a pivotal role in building meaningful connections and finding long-lasting relationships. Engaging in self-reflection, setting goals, and working on oneself can enhance not only your dating life but also your overall well-being. In this blog post, we will explore the importance of self-improvement and personal growth in the context of dating and provide actionable tips to help you embark on a transformative journey.",
-    image: "https://example.com/summer-recipes.jpg"
+    image: "file:///C:/Users/Hp/Downloads/6-Tips-For-Choosing-Swipe-Right-Worthy-Photos%20(1).svg"
   };
   
   // Second blog post
@@ -19,7 +19,7 @@ const blogPost1 = {
     categories: ["Dating Tips"],
     tags: ["Love"],
     content: "Welcome, lovebirds and romance seekers, to another sizzling edition of our dating app blog section! Today, we're diving deep into the enigmatic world of love languages. Just like a secret recipe, understanding your partner's love language is the key to unlocking a connection that sizzles with passion and romance. So, get ready to ignite the flames of desire as we decode the mysteries of love languages!",
-    image: "https://example.com/travel-photography.jpg"
+    image: "file:///C:/Users/Hp/Downloads/Online-Dating-Photography-_-Photos-for-Dating-Apps%20(2).svg"
   };
   
   // Third blog post
@@ -30,7 +30,7 @@ const blogPost1 = {
     categories: ["Dating Trends & Insights"],
     tags: ["tips"],
     content: "In the ever-evolving world of dating, staying informed about the latest trends and insights is crucial for success. From digital advancements to shifting societal norms, understanding the dynamics of modern dating can empower you to make informed choices and navigate the dating landscape with confidence. In this blog post, we will delve into the exciting realm of dating trends and provide valuable insights to help you stay ahead of the game.",
-    image: "https://example.com/inner-peace.jpg"
+    image: "file:///C:/Users/Hp/Downloads/Online-Dating-Photography-_-Photos-for-Dating-Apps-_1_%20(2).svg"
   };
   
   // Fourth blog post
@@ -41,7 +41,7 @@ const blogPost1 = {
     categories: ["Relationdship Advice"],
     tags: ["Love, Tips"],
     content: "Relationships are an intricate dance between two individuals, requiring effort, understanding, and commitment. Whether you're in the early stages of a new relationship or seeking to strengthen an existing one, relationship advice can serve as a guiding light. In this blog post, we will delve into the realm of relationship advice and provide essential insights to help you build strong foundations for lasting love.",
-    image: "https://example.com/negotiation-skills.jpg"
+    image: "file:///C:/Users/Hp/Downloads/The-Perfect-Dating-App-For-Your-Zodiac-Sign_-According-To-Astrology%20(2).svg"
   };
 
 // Convert the object to a JSON string
