@@ -14,8 +14,8 @@ function NavBar({cards, setCards}) {
     }
   return (
     <div>
-        <nav style={{ marginTop:"20px"}}>
-            <div style={{background:"#FFF", marginLeft:"10px", display:"flex"}}>
+        <nav style={{ marginTop:"10px"}}>
+            <div style={{background:"", marginLeft:"10px", display:"flex"}}>
             <NavLink exact to="main"
             style={{marginRight:"50px", color:"#6f0d11", fontFamily:"cursive", fontSize:"20px", marginBottom:"2px",textDecoration:"overline"}}
             activeStyle={{color:"gray", textDecoration:"underline"}}
@@ -36,11 +36,11 @@ function NavBar({cards, setCards}) {
             >
                 Blog
             </NavLink>
-            <NavLink to="/login"
+            <NavLink to="/logout"
             style={{marginRight:"10px", textDecoration:"none", color:"#6f0d11"}}
             onClick={handleSignout}>
                 Signout
-            </NavLink>|
+            </NavLink >
             <label style={{marginLeft:"150px"}}>Search location:</label>
             <input type='search' placeholder="Location"  style={{marginLeft:"10px" ,background:""}}onChange={handleFilter}/>
             </div>

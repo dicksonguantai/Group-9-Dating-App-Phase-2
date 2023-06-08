@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-const Login = ({ setUser }) => {
+const Login = ({ setIsLoggedIn }) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
 
@@ -9,13 +9,14 @@ const Login = ({ setUser }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!name || !email) return;
-    setUser({ name: name, email: email });
-    navigate('/dashboard');
+    setIsLoggedIn(true)
+    // setUser({ name: name, email: email });
+    navigate('/main');
   };
 
 
   return (
-    <section className='section'>``
+    <section className='section'>''
       <form className='form' onSubmit={handleSubmit}>
         <h5>login</h5>
         <div className='form-row'>
