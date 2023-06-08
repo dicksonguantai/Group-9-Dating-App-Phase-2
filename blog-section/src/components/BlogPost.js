@@ -1,12 +1,12 @@
 import React from 'react';
 
-const BlogPost = ({ match }) => {
-  // Fetch individual blog post data based on match.params.id or use props to get the data
-
+const BlogPost = ({ title, content, author, publicationDate }) => {
   return (
     <div>
-      <h1>Blog Post</h1>
-      {/* Render the content of the blog post */}
+      <h2>{title}</h2>
+      <p>{content}</p>
+      <p>Author: {author}</p>
+      <p>Published: {publicationDate}</p>
     </div>
   );
 };
