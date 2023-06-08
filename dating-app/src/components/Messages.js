@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import data from '../data.json';
 import './css/messages.css';
+import userIcon from './user-icon.png';
+
 
 
 
@@ -86,7 +88,7 @@ function Messages() {
                     className={`member-card ${selectedChat && selectedChat.id === chat.id ? 'active' : ''}`}
                     onClick={() => handleChatClick(chat)}
                 >
-                    <img src={chat.userProfilePhoto} alt="User Profile" className="avatar" />
+                    <img src={userIcon} alt="User Profile" className="avatar" />
                     <div className="member-details">
                         <span className="member-name">{chat.name}</span>
                         <span className="member-message">{chat.lastMessage}</span>
@@ -130,11 +132,10 @@ function Messages() {
             <div className="left-column">
                 <div>
                     <div className="header">
-                        <h2 className="title">Chat Contacts</h2>
+                        <h2 className="title">Conversations</h2>
                     </div>
-                    <div className="input-section">
-                        <input type="text" placeholder="Type your message" />
-                        <button>Send</button>
+                    <div className="input-bar">
+                        <input type="text" placeholder="Search profile" />
                     </div>
                 </div>
 
@@ -148,7 +149,7 @@ function Messages() {
 
             <div className="right-column">
                 <div className="chat-header">
-                    <img src="#" alt="Avatar" className="avatar" />
+                    <img src={userIcon} alt="Avatar" className="avatar" />
                     {selectedChat && <h2>{selectedChat.name}</h2>}
                 </div>
                 <p className="status">Online</p>
