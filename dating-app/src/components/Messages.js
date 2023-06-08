@@ -2,8 +2,11 @@
 import React from 'react'
 
 function Messages() {
+
+
   return (
-    <div style={{marginTop:"100px"}}>Messages</div>
+    <div style={{marginTop:"100px"}}>Messages
+    </div>
   )
 }
 
