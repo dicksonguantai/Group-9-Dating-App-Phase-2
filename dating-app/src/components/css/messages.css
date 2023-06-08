@@ -314,6 +314,7 @@
   display: flex;
   align-items: right;
   height: auto;
+  padding: 10px;
 }
 
 .input-bar input {

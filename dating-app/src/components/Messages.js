@@ -132,9 +132,8 @@ function Messages() {
                     <div className="header">
                         <h2 className="title">Chat Contacts</h2>
                     </div>
-                    <div className="input-section">
-                        <input type="text" placeholder="Type your message" />
-                        <button>Send</button>
+                    <div className="input-bar">
+                        <input type="text" placeholder="Search user..." />
                     </div>
                 </div>
 
