@@ -1,3 +1,4 @@
+
 {
     "users": [
       {
@@ -9,8 +10,8 @@
         "location": "Nairobi",
         "bio": "I love exploring new places and trying different cuisines.",
         "photos": [
-          "https://xsgames.co/randomusers/avatar.php?g=male",
-          "https://example.com/photo2.jpg"
+          "https://picsum.photos/id/237/200/300",
+          "https://picsum.photos/id/237/200/300"
         ],
         "height": 180,
         "education": "Bachelor's Degree",
@@ -27,9 +28,42 @@
           "gender": "female",
           "location": "Any",
           "occupation": "Any",
-          "diet": "No preference",
-          "likedUsers":[]
-        }
+          "diet": "No preference"
+        },
+        "messages":[
+            {
+            "message": "Hi, its me. Ive missed you",
+            "time": "10:25 AM",
+            "type": "received"
+            },
+            {
+              "message": "Okay, you dont have to be mean",
+              "time": "10:30 AM",
+              "type": "received"
+            },
+            {
+              "message": "Okay, I wont tewxt you again",
+              "time": "10:40 AM",
+              "type": "received"
+            },        
+          {
+          "message": "New phone, who dis?",
+          "time": "10:26 AM",
+          "type": "sent"
+          },
+          {
+            "message": "But I want to!",
+            "time": "10:33 AM",
+            "type": "sent"
+            
+          },
+          {
+            "message": "I would like that!",
+            "time": "10:45 AM",
+            "type": "sent"
+          }        
+      ]
+        
       },
       {
         "id": "2",
@@ -40,8 +74,8 @@
         "location": "Mombasa",
         "bio": "Passionate about yoga and exploring new destinations.",
         "photos": [
-            "https://xsgames.co/randomusers/avatar.php?g=female",     
-            "https://example.com/photo4.jpg"
+          "https://example.com/photo3.jpg",
+          "https://example.com/photo4.jpg"
         ],
         "height": 165,
         "education": "Master's Degree",
@@ -59,8 +93,40 @@
           "location": "Nairobi",
           "occupation": "Any",
           "diet": "Vegetarian"
-        }
-      },
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]},
       {
         "id": "3",
         "name": "David Wangari",
@@ -70,8 +136,8 @@
         "location": "Nairobi",
         "bio": "Passionate about sports and exploring different cultures.",
         "photos": [
-            "https://xsgames.co/randomusers/avatar.php?g=male",
-            "https://example.com/photo6.jpg"
+          "https://example.com/photo5.jpg",
+          "https://example.com/photo6.jpg"
         ],
         "height": 175,
         "education": "Bachelor's Degree",
@@ -89,7 +155,40 @@
           "location": "Nairobi",
           "occupation": "Any",
           "diet": "No preference"
-        }
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]
       },
       {
         "id": "4",
@@ -100,8 +199,8 @@
         "location": "Mombasa",
         "bio": "An artist who enjoys immersing in books and creating beautiful artwork.",
         "photos": [
-            "https://xsgames.co/randomusers/avatar.php?g=female",
-            "https://example.com/photo8.jpg"
+          "https://example.com/photo7.jpg",
+          "https://example.com/photo8.jpg"
         ],
         "height": 160,
         "education": "Bachelor's Degree",
@@ -119,7 +218,40 @@
           "location": "Mombasa",
           "occupation": "Any",
           "diet": "No preference"
-        }
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]
       },
       {
         "id": "5",
@@ -130,8 +262,8 @@
         "location": "Nairobi",
         "bio": "A tech enthusiast who enjoys experimenting with new recipes and watching movies.",
         "photos": [
-            "https://xsgames.co/randomusers/avatar.php?g=male",
-            "https://example.com/photo10.jpg"
+          "https://example.com/photo9.jpg",
+          "https://example.com/photo10.jpg"
         ],
         "height": 178,
         "education": "Master's Degree",
@@ -149,7 +281,40 @@
           "location": "Nairobi",
           "occupation": "Any",
           "diet": "No preference"
-        }
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]
       },
       {
         "id": "6",
@@ -160,8 +325,8 @@
         "location": "Nakuru",
         "bio": "Passionate about capturing beautiful moments through photography and exploring new dance forms.",
         "photos": [
-            "https://xsgames.co/randomusers/avatar.php?g=female",
-            "https://example.com/photo12.jpg"
+          "https://example.com/photo11.jpg",
+          "https://example.com/photo12.jpg"
         ],
         "height": 170,
         "education": "Bachelor's Degree",
@@ -179,7 +344,40 @@
           "location": "Nairobi",
           "occupation": "Any",
           "diet": "No preference"
-        }
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]
       },
       {
         "id": "7",
@@ -190,8 +388,8 @@
         "location": "Mombasa",
         "bio": "A gamer and technology enthusiast who enjoys listening to music.",
         "photos": [
-            "https://xsgames.co/randomusers/avatar.php?g=male",
-            "https://example.com/photo14.jpg"
+          "https://example.com/photo13.jpg",
+          "https://example.com/photo14.jpg"
         ],
         "height": 175,
         "education": "Bachelor's Degree",
@@ -209,7 +407,40 @@
           "location": "Mombasa",
           "occupation": "Any",
           "diet": "No preference"
-        }
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]
       },
       {
         "id": "8",
@@ -220,8 +451,8 @@
         "location": "Nairobi",
         "bio": "An artist who finds joy in painting, reading, and listening to music.",
         "photos": [
-            "https://xsgames.co/randomusers/avatar.php?g=female",
-            "https://example.com/photo16.jpg"
+          "https://example.com/photo15.jpg",
+          "https://example.com/photo16.jpg"
         ],
         "height": 163,
         "education": "Bachelor's Degree",
@@ -239,7 +470,40 @@
           "location": "Nairobi",
           "occupation": "Any",
           "diet": "No preference"
-        }
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]
       },
       {
         "id": "9",
@@ -250,8 +514,8 @@
         "location": "Nairobi",
         "bio": "Passionate about sports, music, and experimenting with new recipes.",
         "photos": [
-            "https://xsgames.co/randomusers/avatar.php?g=male",
-            "https://example.com/photo18.jpg"
+          "https://example.com/photo17.jpg",
+          "https://example.com/photo18.jpg"
         ],
         "height": 180,
         "education": "Master's Degree",
@@ -269,7 +533,40 @@
           "location": "Nairobi",
           "occupation": "Any",
           "diet": "No preference"
-        }
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]
       },
       {
         "id": "10",
@@ -280,8 +577,8 @@
         "location": "Nanyuki",
         "bio": "Passionate about capturing beautiful moments through photography and exploring new destinations through travel.",
         "photos": [
-            "https://xsgames.co/randomusers/avatar.php?g=female",
-            "https://example.com/photo20.jpg"
+          "https://example.com/photo19.jpg",
+          "https://example.com/photo20.jpg"
         ],
         "height": 168,
         "education": "Bachelor's Degree",
@@ -299,8 +596,40 @@
           "location": "Nairobi",
           "occupation": "Any",
           "diet": "No preference"
-        }
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]
       }
     ]
   }
-  
