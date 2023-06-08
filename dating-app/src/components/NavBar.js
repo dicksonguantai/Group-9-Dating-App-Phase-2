@@ -1,14 +1,21 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { NavLink, useHistory } from 'react-router-dom'
 function NavBar() {
+    const[cards, setCards] = useState([])
     const history = useHistory()
     function handleSignout(e){
         history.push("/login")
     }
 
+    useEffect(()=>{
+        fetch("http://localhost:3000/users")
+        .then(resp=>resp.json())
+        .then(data=>setCards(data))
+    })
+
     function handleFilter(e){
-        const filter = data.filter(item=>item.location.includes(e.target.value))
-        setData(filter)
+        const filter = cards.filter(item=>item.location.includes(e.target.value))
+        setCards(filter)
     }
   return (
     <div>
