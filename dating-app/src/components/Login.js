@@ -20,21 +20,25 @@ const Login = ({ setIsLoggedIn }) => {
       <form className='form' onSubmit={handleSubmit}>
         <h5>login</h5>
         <div className='form-row'>
+
+
           <label htmlFor='name' className='form-label'>
-            name
-          </label>
+            Name
+          </label><br/>
           <input
             type='text'
             className='form-input'
             id='name'
             value={name}
+            
             onChange={(e) => setName(e.target.value)}
           />
         </div>
-        <div className='form-row'>
+        <div className='form-row'
+        style={{marginTop:"30px"}}>
           <label htmlFor='email' className='form-label'>
-            email
-          </label>
+            Email
+          </label><br/>
           <input
             type='email'
             className='form-input'
@@ -43,7 +47,9 @@ const Login = ({ setIsLoggedIn }) => {
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
-        <button type='submit' className='btn btn-block'>
+        <button type='submit' className='btn btn-block'
+        style={{marginTop:"30px", marginLeft:"1px", width:"170px", background:"#B04759", boxShadow:"unset"}}
+        >
           login
         </button>
       </form>
