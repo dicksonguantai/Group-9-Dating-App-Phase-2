@@ -174,9 +174,12 @@ body {
   color: var(--textColor);
 }
 
-nav{
- 
+nav img{
+  display: flex;
+  align-items: center;
+  width: 200px;
 }
+
 
 p {
   margin-bottom: 1.5rem;
@@ -235,10 +238,10 @@ a,
 button {
   line-height: 1.15;
 }
-a,
+/* a,
 button:disabled {
   cursor: not-allowed;
-}
+} */
 
 ul {
   list-style-type: none;
@@ -271,7 +274,7 @@ ul {
   display: inline-block;
 }
 .btn:hover {
-  /* background: var(--red-light); */
+   background: var(--red-light); 
   background: var(--blue-light);
   color: var(--red-dark);
   box-shadow: var(--shadow-3);
@@ -412,6 +415,16 @@ ul {
   gap: 2.0rem;
   margin-bottom: 4rem;
 }
+.container.page{
+  justify-content: center;
+  align-items: center;
+}
+
+
+nav .logo{
+  justify-content: center;
+}
+
 @media screen and (min-width: 576px) {
   .container {
     grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
@@ -484,11 +497,17 @@ ul {
 }
 .icon-wrapper {
   position: absolute;
-  top: 20px; /* Adjust the value to align the icon vertically */
+  top: 80px; /* Adjust the value to align the icon vertically */
   left: 50px; /* Adjust the value to align the icon horizontally */
   font-size: 40px;
 }
-
+.icon-wrapper2{
+  position: absolute;
+  border-radius: 5px;
+  top: 5px; /* Adjust the value to align the icon vertically */
+  right: 50px; /* Adjust the value to align the icon horizontally */
+  font-size: 30px;
+}
 .modal-overlay {
   position: fixed;
   top: 0;

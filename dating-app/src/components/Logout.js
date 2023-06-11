@@ -21,8 +21,10 @@ function Logout({setIsLoggedIn}) {
         if(willDelete){
             swal("You have logged out!",{
                 icon:"success",
+                
             })
-            setIsLoggedIn(false);
+            navigate("/")
+           return setIsLoggedIn(false);
         }else{
             swal("Back To Love For You!",{
                 icon:"warning",
