@@ -21,19 +21,17 @@ function Logout({setIsLoggedIn}) {
         if(willDelete){
             swal("You have logged out!",{
                 icon:"success",
+                
             })
-            setIsLoggedIn(false);
+            navigate("/")
+           return setIsLoggedIn(false);
         }else{
             swal("Back To Love For You!",{
                 icon:"warning",
             })
             navigate("/main")
         }
-    })
-    .catch((error) => {
-       console.log(error);
-   });
-    
+     })
   return (
     <div style={{textAlign:"center", borderRadius:"60px"}}>
        
@@ -41,4 +39,4 @@ function Logout({setIsLoggedIn}) {
   )
 }
 
-export default Logout;
+export default Logout
