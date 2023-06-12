@@ -1,4 +1,3 @@
-//Add main page code 
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import UsersList from './UsersList';
@@ -7,10 +6,10 @@ import UsersList from './UsersList';
 
 import data from '../data';
 
-const userDate = JSON.parse(localStorage.getItem('userData'));
+const userDate = JSON.stringify(localStorage.getItem('userData'));
 
 const Main = () => {
-  const [user, setUser] = useState(userDate);
+  const [user, setUser] = useState(JSON.parse(userDate));
   const [users, setUsers] = useState(data.users);
 
 //   const navigate = useNavigate();

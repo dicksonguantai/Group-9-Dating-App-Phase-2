@@ -29,7 +29,11 @@ function Logout({setIsLoggedIn}) {
             })
             navigate("/main")
         }
-     })
+    })
+    .catch((error) => {
+       console.log(error);
+   });
+    
   return (
     <div style={{textAlign:"center", borderRadius:"60px"}}>
        
@@ -37,4 +41,4 @@ function Logout({setIsLoggedIn}) {
   )
 }
 
-export default Logout
+export default Logout;

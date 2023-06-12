@@ -16,27 +16,27 @@ function NavBar({cards, setCards}) {
     <div>
         <nav style={{ marginTop:"10px"}}>
             <div style={{background:"", marginLeft:"10px", display:"flex"}}>
-            <NavLink exact to="main"
+            <NavLink exact to={JSON.stringify("main")}
             style={{marginRight:"50px", color:"#6f0d11", fontFamily:"cursive", fontSize:"20px", marginBottom:"2px",textDecoration:"overline"}}
             activeStyle={{color:"gray", textDecoration:"underline"}}
             >
                 L L H
             </NavLink> 
-            <NavLink to="messages"
+            <NavLink to={JSON.stringify("/messages")}
             id="nav"
             style={{marginRight:"50px", textDecoration:"none", color:"#6f0d11"}}
             activeStyle={{color:"gray", textDecoration:"underline"}}
             >
                 Messages
             </NavLink>
-            <NavLink to="/blog"
+            <NavLink to={JSON.stringify("/blog")}
             id="nav"
             style={{marginRight:"50px", textDecoration:"none", color:"#6f0d11"}}
             activeStyle={{color:"gray", textDecoration:"underline"}}
             >
                 Blog
             </NavLink>
-            <NavLink to="/logout"
+            <NavLink to={JSON.stringify("/logout")}
             style={{marginRight:"10px", textDecoration:"none", color:"#6f0d11"}}
             onClick={handleSignout}>
                 Signout
