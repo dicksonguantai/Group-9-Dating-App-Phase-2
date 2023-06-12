@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Love Lives Here
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Group Members
+* Dickson Guantai
+* Esther Rono
+* Maureen Ngugi
+* Alvin Gikunju
+* Kepher Ogalo
+* Alfred Kimata
 
-## Available Scripts
+# Project Description
+Dating is a web application aimed at facilitating connections and fostering relationships among individuals in Kenya.
+The app will provide a platform for users to create profiles, search for potential matches, and interact with other users through messaging and various communication features. 
+The goal of the app is to provide a safe and user-friendly environment for people to find compatible partners and explore meaningful connections.
 
-In the project directory, you can run:
+# Project Solution Statement
+The problem this project aims to solve is the lack of a dedicated platform for online dating in Kenya. While there are existing dating apps available in Kenya, Love Leaves Here acknowledges that existing dating platforms may not specifically cater to the Kenyan market or offer features tailored to local culture and preferences. 
+To address these limitations, Love Leaves Here aims to provide a localized platform where Kenyan individuals can connect with like-minded individuals, creating a sense of community and increasing the likelihood of finding compatible partners.
 
-### `npm start`
+# Project Minimum Viable Product (MVP)
+The Minimum Viable Product (MVP) for Love Lives Here will consist of several key features. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- User registration and profile creation: Users will be able to register and create profiles by providing essential information such as their name, age, location, and interests. They can also enhance their profiles by adding profile pictures and writing a short bio.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Search and matching functionality: The platform will include a search and matching functionality, allowing users to search for potential matches based on specific criteria such as age range, location, and shared interests. A matching algorithm will be incorporated to suggest compatible profiles to users.
 
-### `npm test`
+- Messaging and communication: Kenya Dating will facilitate messaging and communication between users and their matches. Basic messaging features, including text-based communication, will be available to facilitate interactions and foster connections.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- User profile management: Users will have the ability to edit and update their profiles as needed. This includes adding or changing profile pictures, updating their bio, and adjusting their preferences to ensure a personalized experience.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+By incorporating these features into its MVP, Kenya Dating aims to create a comprehensive platform that addresses the unique needs and preferences of the Kenyan market, offering a localized and user-friendly experience for individuals seeking meaningful relationships.
