@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+# LOVE LIVES HERE
+## GROUP MEMBERS
+Dickson Guantai
+Esther Rono
+Maureen Ngugi
+Alvin Gikunju
+Kepher Ogalo
+Alfred Kimata
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PROJECT DESCRIPTION
+Dating is a web application aimed at facilitating connections and fostering relationships among individuals in Kenya.
+The app will provide a platform for users to create profiles, search for potential matches, and interact with other users through messaging and various communication features. 
+The goal of the app is to provide a safe and user friendly environment for people to find compatible partners and explore meaningful connections.
+
+
+
+
+
+T
 
 ## Available Scripts
 
