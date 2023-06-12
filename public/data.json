@@ -1,0 +1,635 @@
+
+{
+    "users": [
+      {
+        "id": "1",
+        "name": "John Doe",
+        "age": 25,
+        "gender": "male",
+        "interests": ["hiking", "cooking", "movies"],
+        "location": "Nairobi",
+        "bio": "I love exploring new places and trying different cuisines.",
+        "photos": [
+          "https://picsum.photos/id/237/200/300",
+          "https://picsum.photos/id/237/200/300"
+        ],
+        "height": 180,
+        "education": "Bachelor's Degree",
+        "job": "Software Engineer",
+        "ethnicity": "Caucasian",
+        "religion": "Agnostic",
+        "bodyType": "Athletic",
+        "hobbies": ["Guitar", "Reading", "Traveling"],
+        "music": ["Pop", "Rock", "Hip Hop"],
+        "books": ["Fiction", "Self-help"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "22-30",
+          "gender": "female",
+          "location": "Any",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+            {
+            "message": "Hi, its me. Ive missed you",
+            "time": "10:25 AM",
+            "type": "received"
+            },
+            {
+              "message": "Okay, you dont have to be mean",
+              "time": "10:30 AM",
+              "type": "received"
+            },
+            {
+              "message": "Okay, I wont tewxt you again",
+              "time": "10:40 AM",
+              "type": "received"
+            },        
+          {
+          "message": "New phone, who dis?",
+          "time": "10:26 AM",
+          "type": "sent"
+          },
+          {
+            "message": "But I want to!",
+            "time": "10:33 AM",
+            "type": "sent"
+            
+          },
+          {
+            "message": "I would like that!",
+            "time": "10:45 AM",
+            "type": "sent"
+          }        
+      ]
+        
+      },
+      {
+        "id": "2",
+        "name": "Jane Smith",
+        "age": 28,
+        "gender": "female",
+        "interests": ["yoga", "reading", "traveling"],
+        "location": "Mombasa",
+        "bio": "Passionate about yoga and exploring new destinations.",
+        "photos": [
+          "https://example.com/photo3.jpg",
+          "https://example.com/photo4.jpg"
+        ],
+        "height": 165,
+        "education": "Master's Degree",
+        "job": "Marketing Manager",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Slim",
+        "hobbies": ["Painting", "Hiking", "Photography"],
+        "music": ["R&B", "Jazz", "Reggae"],
+        "books": ["Biographies", "Mystery"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "25-35",
+          "gender": "male",
+          "location": "Nairobi",
+          "occupation": "Any",
+          "diet": "Vegetarian"
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]},
+      {
+        "id": "3",
+        "name": "David Wangari",
+        "age": 30,
+        "gender": "male",
+        "interests": ["sports", "music", "traveling"],
+        "location": "Nairobi",
+        "bio": "Passionate about sports and exploring different cultures.",
+        "photos": [
+          "https://example.com/photo5.jpg",
+          "https://example.com/photo6.jpg"
+        ],
+        "height": 175,
+        "education": "Bachelor's Degree",
+        "job": "Financial Analyst",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Average",
+        "hobbies": ["Football", "Playing guitar", "Cooking"],
+        "music": ["Hip Hop", "Reggae", "Pop"],
+        "books": ["Biographies", "Business"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "25-35",
+          "gender": "female",
+          "location": "Nairobi",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]
+      },
+      {
+        "id": "4",
+        "name": "Sarah Kamau",
+        "age": 26,
+        "gender": "female",
+        "interests": ["reading", "painting", "music"],
+        "location": "Mombasa",
+        "bio": "An artist who enjoys immersing in books and creating beautiful artwork.",
+        "photos": [
+          "https://example.com/photo7.jpg",
+          "https://example.com/photo8.jpg"
+        ],
+        "height": 160,
+        "education": "Bachelor's Degree",
+        "job": "Graphic Designer",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Slim",
+        "hobbies": ["Drawing", "Listening to music", "Exploring nature"],
+        "music": ["Pop", "Indie", "R&B"],
+        "books": ["Mystery", "Fantasy", "Romance"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "25-30",
+          "gender": "male",
+          "location": "Mombasa",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]
+      },
+      {
+        "id": "5",
+        "name": "Robert Kimani",
+        "age": 32,
+        "gender": "male",
+        "interests": ["cooking", "movies", "technology"],
+        "location": "Nairobi",
+        "bio": "A tech enthusiast who enjoys experimenting with new recipes and watching movies.",
+        "photos": [
+          "https://example.com/photo9.jpg",
+          "https://example.com/photo10.jpg"
+        ],
+        "height": 178,
+        "education": "Master's Degree",
+        "job": "Software Developer",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Athletic",
+        "hobbies": ["Coding", "Watching documentaries", "Playing basketball"],
+        "music": ["Rock", "Electronic", "Classical"],
+        "books": ["Sci-Fi", "Technology", "Business"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "25-35",
+          "gender": "female",
+          "location": "Nairobi",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]
+      },
+      {
+        "id": "6",
+        "name": "Grace Wanjiku",
+        "age": 27,
+        "gender": "female",
+        "interests": ["photography", "dancing", "travelling"],
+        "location": "Nakuru",
+        "bio": "Passionate about capturing beautiful moments through photography and exploring new dance forms.",
+        "photos": [
+          "https://example.com/photo11.jpg",
+          "https://example.com/photo12.jpg"
+        ],
+        "height": 170,
+        "education": "Bachelor's Degree",
+        "job": "Photographer",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Slim",
+        "hobbies": ["Photography", "Dancing", "Traveling"],
+        "music": ["Pop", "EDM", "Afrobeat"],
+        "books": ["Biographies", "Self-help"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "25-35",
+          "gender": "male",
+          "location": "Nairobi",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]
+      },
+      {
+        "id": "7",
+        "name": "Michael Gitau",
+        "age": 29,
+        "gender": "male",
+        "interests": ["gaming", "music", "technology"],
+        "location": "Mombasa",
+        "bio": "A gamer and technology enthusiast who enjoys listening to music.",
+        "photos": [
+          "https://example.com/photo13.jpg",
+          "https://example.com/photo14.jpg"
+        ],
+        "height": 175,
+        "education": "Bachelor's Degree",
+        "job": "IT Specialist",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Average",
+        "hobbies": ["Gaming", "Listening to music", "Exploring new gadgets"],
+        "music": ["Rock", "Metal", "Alternative"],
+        "books": ["Science Fiction", "Thriller"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "25-35",
+          "gender": "female",
+          "location": "Mombasa",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]
+      },
+      {
+        "id": "8",
+        "name": "Emily Wambui",
+        "age": 24,
+        "gender": "female",
+        "interests": ["painting", "reading", "music"],
+        "location": "Nairobi",
+        "bio": "An artist who finds joy in painting, reading, and listening to music.",
+        "photos": [
+          "https://example.com/photo15.jpg",
+          "https://example.com/photo16.jpg"
+        ],
+        "height": 163,
+        "education": "Bachelor's Degree",
+        "job": "Teacher",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Average",
+        "hobbies": ["Painting", "Reading", "Listening to music"],
+        "music": ["Pop", "R&B", "Indie"],
+        "books": ["Fiction", "Mystery", "Romance"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "22-30",
+          "gender": "male",
+          "location": "Nairobi",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]
+      },
+      {
+        "id": "9",
+        "name": "Brian Otieno",
+        "age": 31,
+        "gender": "male",
+        "interests": ["sports", "music", "cooking"],
+        "location": "Nairobi",
+        "bio": "Passionate about sports, music, and experimenting with new recipes.",
+        "photos": [
+          "https://example.com/photo17.jpg",
+          "https://example.com/photo18.jpg"
+        ],
+        "height": 180,
+        "education": "Master's Degree",
+        "job": "Fitness Trainer",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Athletic",
+        "hobbies": ["Football", "Playing guitar", "Cooking"],
+        "music": ["Pop", "Hip Hop", "Reggae"],
+        "books": ["Biographies", "Cooking"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "25-35",
+          "gender": "female",
+          "location": "Nairobi",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]
+      },
+      {
+        "id": "10",
+        "name": "Linda Muthoni",
+        "age": 27,
+        "gender": "female",
+        "interests": ["photography", "reading", "traveling"],
+        "location": "Nanyuki",
+        "bio": "Passionate about capturing beautiful moments through photography and exploring new destinations through travel.",
+        "photos": [
+          "https://example.com/photo19.jpg",
+          "https://example.com/photo20.jpg"
+        ],
+        "height": 168,
+        "education": "Bachelor's Degree",
+        "job": "Journalist",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Slim",
+        "hobbies": ["Photography", "Reading", "Traveling"],
+        "music": ["Pop", "Indie", "R&B"],
+        "books": ["Biographies", "Mystery", "Adventure"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "25-35",
+          "gender": "male",
+          "location": "Nairobi",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+          "message": "Hi, its me. Ive missed you",
+          "time": "10:25 AM",
+          "type": "received"
+          },
+          {
+            "message": "Okay, you dont have to be mean",
+            "time": "10:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Okay, I wont tewxt you again",
+            "time": "10:40 AM",
+            "type": "received"
+          },        
+        {
+        "message": "New phone, who dis?",
+        "time": "10:26 AM",
+        "type": "sent"
+        },
+        {
+          "message": "But I want to!",
+          "time": "10:33 AM",
+          "type": "sent"
+          
+        },
+        {
+          "message": "I would like that!",
+          "time": "10:45 AM",
+          "type": "sent"
+        }        
+    ]
+      }
+    ]
+  }
