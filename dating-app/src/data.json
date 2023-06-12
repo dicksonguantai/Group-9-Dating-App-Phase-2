@@ -1,0 +1,903 @@
+
+{
+    "users": [
+      {
+        "id": "1",
+        "name": "John Doe",
+        "age": 25,
+        "gender": "male",
+        "interests": ["hiking", "cooking", "movies"],
+        "location": "Nairobi",
+        "bio": "I love exploring new places and trying different cuisines.",
+        "photos": [
+          "https://i.pinimg.com/736x/35/da/3f/35da3f74621a36575e91ecf4b84e13d7--gorgeous-black-men-human-resources.jpg",
+          "https://picsum.photos/id/237/200/300"
+        ],
+        "height": 180,
+        "education": "Bachelor's Degree",
+        "job": "Software Engineer",
+        "ethnicity": "Caucasian",
+        "religion": "Agnostic",
+        "bodyType": "Athletic",
+        "hobbies": ["Guitar", "Reading", "Traveling"],
+        "music": ["Pop", "Rock", "Hip Hop"],
+        "books": ["Fiction", "Self-help"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "22-30",
+          "gender": "female",
+          "location": "Any",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+            "message": "Hey, I have something important to share with you. I just found out that I'm pregnant.",
+            "time": "2:00 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Oh wow, that's big news! Take a deep breath, and please know that we'll figure everything out together. You're not alone in this.",
+            "time": "2:05 PM",
+            "type": "received"
+          },
+          {
+            "message": "I'm glad to hear that. I must admit, I'm feeling a mix of emotions right now.",
+            "time": "2:10 PM",
+            "type": "sent"
+          },
+          {
+            "message": "It's completely normal to feel that way. We'll face each challenge step by step, and I'll be right by your side to support you.",
+            "time": "2:15 PM",
+            "type": "received"
+          },
+          {
+            "message": "Thank you for being so understanding. I'm just worried about how this will change our lives.",
+            "time": "2:20 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Change can be scary, but it also brings new opportunities and joy. We'll adapt, grow, and create a beautiful future for our family. I have faith in us.",
+            "time": "2:25 PM",
+            "type": "received"
+          },
+          {
+            "message": "You always know the right words to calm me down. I truly appreciate your support and love.",
+            "time": "2:30 PM",
+            "type": "sent"
+          },
+          {
+            "message": "And I'll continue to be here for you every step of the way. We'll navigate this journey together, and our love will guide us through any challenges that come our way.",
+            "time": "2:35 PM",
+            "type": "received"
+          },
+          {
+            "message": "I'm feeling more reassured now. I'm grateful to have you by my side. We'll figure this out, and our future is going to be amazing.",
+            "time": "2:40 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Absolutely. We have each other, and that's the most important thing. Our love and commitment will create a beautiful life for our growing family. I'm excited for the journey ahead!",
+            "time": "2:45 PM",
+            "type": "received"
+          }
+        ]
+               
+      },
+      {
+        "id": "2",
+        "name": "Jane Smith",
+        "age": 28,
+        "gender": "female",
+        "interests": ["yoga", "reading", "traveling"],
+        "location": "Mombasa",
+        "bio": "Passionate about yoga and exploring new destinations.",
+        "photos": [
+          "https://th.bing.com/th/id/R.24fd95d6e7b02bcc3605166e6bf1dbc0?rik=EiO4aExDxSKsxA&pid=ImgRaw&r=0",
+          "https://example.com/photo4.jpg"
+        ],
+        "height": 165,
+        "education": "Master's Degree",
+        "job": "Marketing Manager",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Slim",
+        "hobbies": ["Painting", "Hiking", "Photography"],
+        "music": ["R&B", "Jazz", "Reggae"],
+        "books": ["Biographies", "Mystery"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "25-35",
+          "gender": "male",
+          "location": "Nairobi",
+          "occupation": "Any",
+          "diet": "Vegetarian"
+        },
+        "messages":[
+          {
+            "message": "Hey, how's it going?",
+            "time": "11:15 AM",
+            "type": "received"
+          },
+          {
+            "message": "Hi there! I've been good, thanks for asking.",
+            "time": "11:20 AM",
+            "type": "sent"
+          },
+          {
+            "message": "That's great to hear! What have you been up to lately?",
+            "time": "11:25 AM",
+            "type": "received"
+          },
+          {
+            "message": "Not much, just been busy with work. How about you?",
+            "time": "11:30 AM",
+            "type": "sent"
+          },
+          {
+            "message": "I've been traveling a lot recently. It's been quite an adventure!",
+            "time": "11:35 AM",
+            "type": "received"
+          },
+          {
+            "message": "Wow, that sounds amazing! Any favorite destinations?",
+            "time": "11:40 AM",
+            "type": "sent"
+          }
+        ]
+        
+},
+      {
+        "id": "3",
+        "name": "David Wangari",
+        "age": 30,
+        "gender": "male",
+        "interests": ["sports", "music", "traveling"],
+        "location": "Nairobi",
+        "bio": "Passionate about sports and exploring different cultures.",
+        "photos": [
+          "https://th.bing.com/th/id/OIP.o0XtCozeSYOI3AlNQ3-lewAAAA?pid=ImgDet&w=400&h=400&rs=1",
+          "https://example.com/photo6.jpg"
+        ],
+        "height": 175,
+        "education": "Bachelor's Degree",
+        "job": "Financial Analyst",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Average",
+        "hobbies": ["Football", "Playing guitar", "Cooking"],
+        "music": ["Hip Hop", "Reggae", "Pop"],
+        "books": ["Biographies", "Business"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "25-35",
+          "gender": "female",
+          "location": "Nairobi",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+            "message": "Hey, did you watch that new movie everyone is talking about?",
+            "time": "6:45 PM",
+            "type": "sent"
+          },
+          {
+            "message": "No, not yet. Is it any good?",
+            "time": "6:50 PM",
+            "type": "received"
+          },
+          {
+            "message": "I thought it was excellent! The plot and acting were top-notch.",
+            "time": "6:55 PM",
+            "type": "sent"
+          },
+          {
+            "message": "That's great to hear. I'll definitely check it out then.",
+            "time": "7:00 PM",
+            "type": "received"
+          },
+          {
+            "message": "Let me know what you think after watching it!",
+            "time": "7:05 PM",
+            "type": "sent"
+          }
+        ]
+        
+      },
+      {
+        "id": "4",
+        "name": "Sarah Kamau",
+        "age": 26,
+        "gender": "female",
+        "interests": ["reading", "painting", "music"],
+        "location": "Mombasa",
+        "bio": "An artist who enjoys immersing in books and creating beautiful artwork.",
+        "photos": [
+          "https://th.bing.com/th/id/OIP.Ic9WgRIRzqY4aqTF0NW0fwHaEL?pid=ImgDet&rs=1",
+          "https://example.com/photo8.jpg"
+        ],
+        "height": 160,
+        "education": "Bachelor's Degree",
+        "job": "Graphic Designer",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Slim",
+        "hobbies": ["Drawing", "Listening to music", "Exploring nature"],
+        "music": ["Pop", "Indie", "R&B"],
+        "books": ["Mystery", "Fantasy", "Romance"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "25-30",
+          "gender": "male",
+          "location": "Mombasa",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+            "message": "Hey, how have you been?",
+            "time": "9:00 AM",
+            "type": "received"
+          },
+          {
+            "message": "I've been good, thanks for asking. How about you?",
+            "time": "9:05 AM",
+            "type": "sent"
+          },
+          {
+            "message": "I've been a bit busy lately with work, but otherwise doing well.",
+            "time": "9:10 AM",
+            "type": "received"
+          },
+          {
+            "message": "I can understand. Work can be demanding sometimes.",
+            "time": "9:15 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Definitely. But it's also rewarding when things fall into place.",
+            "time": "9:20 AM",
+            "type": "received"
+          },
+          {
+            "message": "Absolutely! Seeing the results of your hard work is satisfying.",
+            "time": "9:25 AM",
+            "type": "sent"
+          },
+          {
+            "message": "By the way, have you heard about that new restaurant downtown?",
+            "time": "9:30 AM",
+            "type": "sent"
+          },
+          {
+            "message": "No, I haven't. What's special about it?",
+            "time": "9:35 AM",
+            "type": "received"
+          },
+          {
+            "message": "They serve a fusion of different cuisines, and the ambience is fantastic.",
+            "time": "9:40 AM",
+            "type": "sent"
+          },
+          {
+            "message": "That sounds intriguing! We should plan a visit sometime.",
+            "time": "9:45 AM",
+            "type": "received"
+          },
+          {
+            "message": "Definitely! I'll check their availability and let you know.",
+            "time": "9:50 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Great, looking forward to it!",
+            "time": "9:55 AM",
+            "type": "received"
+          },
+          {
+            "message": "Hey, did you catch the latest episode of that TV series we've been watching?",
+            "time": "10:00 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Not yet, I've been meaning to catch up. Is it a good one?",
+            "time": "10:05 AM",
+            "type": "received"
+          },
+          {
+            "message": "It's amazing! So many plot twists and unexpected turns.",
+            "time": "10:10 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Sounds intriguing! I'll make sure to watch it soon.",
+            "time": "10:15 AM",
+            "type": "received"
+          },
+          {
+            "message": "Let me know what you think once you've seen it!",
+            "time": "10:20 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Hey, I've been thinking about our upcoming vacation. Any ideas where we should go?",
+            "time": "10:25 AM",
+            "type": "received"
+          },
+          {
+            "message": "I've been researching some beach destinations. How about a tropical getaway?",
+            "time": "10:30 AM",
+            "type": "sent"
+          },
+          {
+            "message": "That sounds like a perfect plan! I could use some sun and relaxation.",
+            "time": "10:35 AM",
+            "type": "received"
+          },
+          {
+            "message": "Great! I'll start looking for the best deals and accommodations.",
+            "time": "10:40 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Thanks for taking care of the arrangements. I appreciate it!",
+            "time": "10:45 AM",
+            "type": "received"
+          },
+          {
+            "message": "No problem at all. It's going to be an amazing trip!",
+            "time": "10:50 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Hey, have you seen the latest movie that everyone is talking about?",
+            "time": "10:55 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Not yet. Is it worth watching?",
+            "time": "11:00 AM",
+            "type": "received"
+          },
+          {
+            "message": "Definitely! It's a must-see. The performances are outstanding.",
+            "time": "11:05 AM",
+            "type": "sent"
+          },
+          {
+            "message": "I'll make sure to catch it then. Thanks for the recommendation!",
+            "time": "11:10 AM",
+            "type": "received"
+          },
+          {
+            "message": "You're welcome! Let me know how you like it.",
+            "time": "11:15 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Hey, I've been thinking about trying out a new hobby. Any suggestions?",
+            "time": "11:20 AM",
+            "type": "received"
+          },
+          {
+            "message": "How about painting? It's a great way to express your creativity.",
+            "time": "11:25 AM",
+            "type": "sent"
+          },
+          {
+            "message": "That sounds interesting! I've always admired beautiful artwork.",
+            "time": "11:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Give it a try! You might discover a hidden talent.",
+            "time": "11:35 AM",
+            "type": "sent"
+          },
+          {
+            "message": "I'll definitely consider it. Thanks for the suggestion!",
+            "time": "11:40 AM",
+            "type": "received"
+          },
+          {
+            "message": "You're welcome! Let me know if you need any art supplies recommendations.",
+            "time": "11:45 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Sure, I'll reach out to you. Thanks again!",
+            "time": "11:50 AM",
+            "type": "received"
+          }
+        ]        
+      },
+      {
+        "id": "5",
+        "name": "Robert Kimani",
+        "age": 32,
+        "gender": "male",
+        "interests": ["cooking", "movies", "technology"],
+        "location": "Nairobi",
+        "bio": "A tech enthusiast who enjoys experimenting with new recipes and watching movies.",
+        "photos": [
+          "https://thumbs.dreamstime.com/b/smiling-black-man-7647638.jpg",
+          "https://example.com/photo10.jpg"
+        ],
+        "height": 178,
+        "education": "Master's Degree",
+        "job": "Software Developer",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Athletic",
+        "hobbies": ["Coding", "Watching documentaries", "Playing basketball"],
+        "music": ["Rock", "Electronic", "Classical"],
+        "books": ["Sci-Fi", "Technology", "Business"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "25-35",
+          "gender": "female",
+          "location": "Nairobi",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+            "message": "Hey, long time no see! How have you been?",
+            "time": "2:00 PM",
+            "type": "received"
+          },
+          {
+            "message": "I've been good, thanks! How about you?",
+            "time": "2:05 PM",
+            "type": "sent"
+          },
+          {
+            "message": "I've been keeping busy with work and some personal projects.",
+            "time": "2:10 PM",
+            "type": "received"
+          },
+          {
+            "message": "That's great! What kind of projects are you working on?",
+            "time": "2:15 PM",
+            "type": "sent"
+          },
+          {
+            "message": "I'm actually developing a mobile app for a local startup.",
+            "time": "2:20 PM",
+            "type": "received"
+          },
+          {
+            "message": "Wow, that sounds exciting! I hope it turns out to be a success.",
+            "time": "2:25 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Thank you! Fingers crossed for a positive outcome.",
+            "time": "2:30 PM",
+            "type": "received"
+          },
+          {
+            "message": "Hey, have you tried that new restaurant that opened in town?",
+            "time": "2:35 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Not yet, but I've heard good things about it. Planning to go soon.",
+            "time": "2:40 PM",
+            "type": "received"
+          },
+          {
+            "message": "Let me know how it is once you've been there. I'm curious!",
+            "time": "2:45 PM",
+            "type": "sent"
+          }
+        ]
+              },
+      {
+        "id": "6",
+        "name": "Grace Wanjiku",
+        "age": 27,
+        "gender": "female",
+        "interests": ["photography", "dancing", "travelling"],
+        "location": "Nakuru",
+        "bio": "Passionate about capturing beautiful moments through photography and exploring new dance forms.",
+        "photos": [
+          "https://i.pinimg.com/736x/dc/ea/ed/dceaedff180a7303e4c18cddd93d44b0.jpg",
+          "https://example.com/photo12.jpg"
+        ],
+        "height": 170,
+        "education": "Bachelor's Degree",
+        "job": "Photographer",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Slim",
+        "hobbies": ["Photography", "Dancing", "Traveling"],
+        "music": ["Pop", "EDM", "Afrobeat"],
+        "books": ["Biographies", "Self-help"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "25-35",
+          "gender": "male",
+          "location": "Nairobi",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+            "message": "Hey, guess what? I watched this amazing movie last night.",
+            "time": "7:00 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Oh, really? What was it about?",
+            "time": "7:05 PM",
+            "type": "received"
+          },
+          {
+            "message": "It was a romantic drama, and there was this heartbreaking breakup scene.",
+            "time": "7:10 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Oh no, I can't handle breakup scenes. They always make me emotional.",
+            "time": "7:15 PM",
+            "type": "received"
+          },
+          {
+            "message": "I know what you mean. This one was so well-acted, it felt incredibly real.",
+            "time": "7:20 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Did it have a happy ending or was it a total tearjerker?",
+            "time": "7:25 PM",
+            "type": "received"
+          },
+          {
+            "message": "It was definitely a tearjerker. The ending left me with mixed emotions.",
+            "time": "7:30 PM",
+            "type": "sent"
+          },
+          {
+            "message": "I don't think I'm emotionally prepared to watch something like that right now.",
+            "time": "7:35 PM",
+            "type": "received"
+          },
+          {
+            "message": "I totally understand. It's always good to choose movies based on your mood.",
+            "time": "7:40 PM",
+            "type": "sent"
+          }
+        ]
+        
+      },
+      {
+        "id": "7",
+        "name": "Michael Gitau",
+        "age": 29,
+        "gender": "male",
+        "interests": ["gaming", "music", "technology"],
+        "location": "Mombasa",
+        "bio": "A gamer and technology enthusiast who enjoys listening to music.",
+        "photos": [
+          "https://thumbs.dreamstime.com/b/portrait-moody-young-black-man-wearing-fur-hood-30407970.jpg",
+          "https://example.com/photo14.jpg"
+        ],
+        "height": 175,
+        "education": "Bachelor's Degree",
+        "job": "IT Specialist",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Average",
+        "hobbies": ["Gaming", "Listening to music", "Exploring new gadgets"],
+        "music": ["Rock", "Metal", "Alternative"],
+        "books": ["Science Fiction", "Thriller"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "25-35",
+          "gender": "female",
+          "location": "Mombasa",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+            "message": "Hey, have you started preparing for our class presentation on the dating app project?",
+            "time": "10:00 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Yes, I've been working on the slides. We should highlight the features and user experience.",
+            "time": "10:05 AM",
+            "type": "received"
+          },
+          {
+            "message": "Absolutely! Let's start with an introduction to the app and explain why we chose React for development.",
+            "time": "10:10 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Good idea. We can then showcase the login/signup process and the profile creation flow.",
+            "time": "10:15 AM",
+            "type": "received"
+          },
+          {
+            "message": "Definitely. We should emphasize the user interface design and how it enhances the overall experience.",
+            "time": "10:20 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Agreed. We can also discuss the matching algorithm and how it suggests potential matches to users.",
+            "time": "10:25 AM",
+            "type": "received"
+          },
+          {
+            "message": "That's a crucial aspect. Additionally, we can demonstrate the chat functionality for users to connect with each other.",
+            "time": "10:30 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Right. And let's not forget to mention the responsive design and mobile compatibility of our app.",
+            "time": "10:35 AM",
+            "type": "received"
+          },
+          {
+            "message": "Absolutely. We want to highlight that our app provides a seamless experience across different devices.",
+            "time": "10:40 AM",
+            "type": "sent"
+          },
+          {
+            "message": "For the conclusion, let's summarize the key features and the challenges we faced during development.",
+            "time": "10:45 AM",
+            "type": "received"
+          },
+          {
+            "message": "Sounds like a solid plan. We'll wrap up by answering any questions from the class. We got this!",
+            "time": "10:50 AM",
+            "type": "sent"
+          }
+        ]
+        
+      },
+      {
+        "id": "8",
+        "name": "Emily Wambui",
+        "age": 24,
+        "gender": "female",
+        "interests": ["painting", "reading", "music"],
+        "location": "Nairobi",
+        "bio": "An artist who finds joy in painting, reading, and listening to music.",
+        "photos": [
+          "https://s3.amazonaws.com/freestock-prod/450/freestock_304243829.jpg",
+          "https://example.com/photo16.jpg"
+        ],
+        "height": 163,
+        "education": "Bachelor's Degree",
+        "job": "Teacher",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Average",
+        "hobbies": ["Painting", "Reading", "Listening to music"],
+        "music": ["Pop", "R&B", "Indie"],
+        "books": ["Fiction", "Mystery", "Romance"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "22-30",
+          "gender": "male",
+          "location": "Nairobi",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+            "message": "Hey, guess what? I saw your profile on the dating app, and I really liked it!",
+            "time": "5:00 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Oh, really? That's so sweet of you to say! I'm glad you liked my profile.",
+            "time": "5:05 PM",
+            "type": "received"
+          },
+          {
+            "message": "Your interests and hobbies align perfectly with mine. We should definitely chat more!",
+            "time": "5:10 PM",
+            "type": "sent"
+          },
+          {
+            "message": "I noticed the same! It's great to find someone who shares common interests. Let's chat and get to know each other better!",
+            "time": "5:15 PM",
+            "type": "received"
+          },
+          {
+            "message": "Absolutely! How about we grab a coffee sometime and continue the conversation in person?",
+            "time": "5:20 PM",
+            "type": "sent"
+          },
+          {
+            "message": "That sounds lovely! I'd love to meet up and see where this connection leads. Let's plan it!",
+            "time": "5:25 PM",
+            "type": "received"
+          },
+          {
+            "message": "Great! I'll message you with some available dates and we can finalize the details. Looking forward to it!",
+            "time": "5:30 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Sounds like a plan! I'll keep an eye out for your message. Excited to meet you soon!",
+            "time": "5:35 PM",
+            "type": "received"
+          }
+        ]
+        
+      },
+      {
+        "id": "9",
+        "name": "Brian Otieno",
+        "age": 31,
+        "gender": "male",
+        "interests": ["sports", "music", "cooking"],
+        "location": "Nairobi",
+        "bio": "Passionate about sports, music, and experimenting with new recipes.",
+        "photos": [
+          "https://st2.depositphotos.com/5624298/9276/i/950/depositphotos_92763718-stock-photo-attractive-black-guy.jpg",
+          "https://example.com/photo18.jpg"
+        ],
+        "height": 180,
+        "education": "Master's Degree",
+        "job": "Fitness Trainer",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Athletic",
+        "hobbies": ["Football", "Playing guitar", "Cooking"],
+        "music": ["Pop", "Hip Hop", "Reggae"],
+        "books": ["Biographies", "Cooking"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "25-35",
+          "gender": "female",
+          "location": "Nairobi",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+            "message": "Hey, I just realized we're in the same city! We should totally meet up for dinner sometime.",
+            "time": "7:00 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Oh, really? That's a pleasant surprise! I'd love to meet up and catch up over dinner.",
+            "time": "7:05 PM",
+            "type": "received"
+          },
+          {
+            "message": "Perfect! There's this new restaurant that I've been wanting to try. How about we go there?",
+            "time": "7:10 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Sounds exciting! I'm always up for trying new places. What kind of cuisine do they offer?",
+            "time": "7:15 PM",
+            "type": "received"
+          },
+          {
+            "message": "It's a fusion restaurant with a mix of Asian and Mediterranean flavors. The reviews are great!",
+            "time": "7:20 PM",
+            "type": "sent"
+          },
+          {
+            "message": "That sounds delicious! I'm already looking forward to it. When should we go?",
+            "time": "7:25 PM",
+            "type": "received"
+          },
+          {
+            "message": "How about this Friday? It gives us time to plan and look forward to it.",
+            "time": "7:30 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Friday works for me! Let's meet at 7 PM. Should I make a reservation?",
+            "time": "7:35 PM",
+            "type": "received"
+          },
+          {
+            "message": "That would be great! Make a reservation for two under my name. Can't wait to see you!",
+            "time": "7:40 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Consider it done! I'm really looking forward to our dinner. See you on Friday!",
+            "time": "7:45 PM",
+            "type": "received"
+          }
+        ]
+        
+      },
+      {
+        "id": "10",
+        "name": "Linda Muthoni",
+        "age": 27,
+        "gender": "female",
+        "interests": ["photography", "reading", "traveling"],
+        "location": "Nanyuki",
+        "bio": "Passionate about capturing beautiful moments through photography and exploring new destinations through travel.",
+        "photos": [
+          "https://www.allgigs.co.uk/images/object/ARTIST/86601/Vanessa_Haynes-1-400-400-100-crop.jpeg",
+          "https://example.com/photo20.jpg"
+        ],
+        "height": 168,
+        "education": "Bachelor's Degree",
+        "job": "Journalist",
+        "ethnicity": "African",
+        "religion": "Christian",
+        "bodyType": "Slim",
+        "hobbies": ["Photography", "Reading", "Traveling"],
+        "music": ["Pop", "Indie", "R&B"],
+        "books": ["Biographies", "Mystery", "Adventure"],
+        "relationships": "Single",
+        "lookingFor": {
+          "ageRange": "25-35",
+          "gender": "male",
+          "location": "Nairobi",
+          "occupation": "Any",
+          "diet": "No preference"
+        },
+        "messages":[
+          {
+            "message": "Hey, I just have to say, last night was absolutely amazing!",
+            "time": "9:00 AM",
+            "type": "sent"
+          },
+          {
+            "message": "I couldn't agree more! It was such a fantastic night. I had a blast!",
+            "time": "9:05 AM",
+            "type": "received"
+          },
+          {
+            "message": "The energy, the music, everything was just perfect. I'm still on a high from it!",
+            "time": "9:10 AM",
+            "type": "sent"
+          },
+          {
+            "message": "I know what you mean. The atmosphere was electric, and the music had everyone dancing!",
+            "time": "9:15 AM",
+            "type": "received"
+          },
+          {
+            "message": "And that surprise performance by the special guest? I couldn't believe it!",
+            "time": "9:20 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Right? It was mind-blowing! I'll never forget that moment. Such an incredible experience.",
+            "time": "9:25 AM",
+            "type": "received"
+          },
+          {
+            "message": "Absolutely. We were lucky to be part of such a memorable night. It exceeded all expectations!",
+            "time": "9:30 AM",
+            "type": "sent"
+          },
+          {
+            "message": "It's the kind of night you wish could last forever. I'm so grateful for the memories we made.",
+            "time": "9:35 AM",
+            "type": "received"
+          },
+          {
+            "message": "Me too. It's moments like these that make life so special. Here's to many more incredible nights!",
+            "time": "9:40 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Cheers to that! Let's keep embracing the magic and creating unforgettable experiences together!",
+            "time": "9:45 AM",
+            "type": "received"
+          }
+        ]
+        
+      }
+    ]
+  }
