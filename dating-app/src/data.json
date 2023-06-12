@@ -31,39 +31,58 @@
           "diet": "No preference"
         },
         "messages":[
-            {
-            "message": "Hi, its me. Ive missed you",
-            "time": "10:25 AM",
+          {
+            "message": "Hey, I have something important to share with you. I just found out that I'm pregnant.",
+            "time": "2:00 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Oh wow, that's big news! Take a deep breath, and please know that we'll figure everything out together. You're not alone in this.",
+            "time": "2:05 PM",
             "type": "received"
-            },
-            {
-              "message": "Okay, you dont have to be mean",
-              "time": "10:30 AM",
-              "type": "received"
-            },
-            {
-              "message": "Okay, I wont tewxt you again",
-              "time": "10:40 AM",
-              "type": "received"
-            },        
-          {
-          "message": "New phone, who dis?",
-          "time": "10:26 AM",
-          "type": "sent"
           },
           {
-            "message": "But I want to!",
-            "time": "10:33 AM",
+            "message": "I'm glad to hear that. I must admit, I'm feeling a mix of emotions right now.",
+            "time": "2:10 PM",
             "type": "sent"
-            
           },
           {
-            "message": "I would like that!",
-            "time": "10:45 AM",
+            "message": "It's completely normal to feel that way. We'll face each challenge step by step, and I'll be right by your side to support you.",
+            "time": "2:15 PM",
+            "type": "received"
+          },
+          {
+            "message": "Thank you for being so understanding. I'm just worried about how this will change our lives.",
+            "time": "2:20 PM",
             "type": "sent"
-          }        
-      ]
-        
+          },
+          {
+            "message": "Change can be scary, but it also brings new opportunities and joy. We'll adapt, grow, and create a beautiful future for our family. I have faith in us.",
+            "time": "2:25 PM",
+            "type": "received"
+          },
+          {
+            "message": "You always know the right words to calm me down. I truly appreciate your support and love.",
+            "time": "2:30 PM",
+            "type": "sent"
+          },
+          {
+            "message": "And I'll continue to be here for you every step of the way. We'll navigate this journey together, and our love will guide us through any challenges that come our way.",
+            "time": "2:35 PM",
+            "type": "received"
+          },
+          {
+            "message": "I'm feeling more reassured now. I'm grateful to have you by my side. We'll figure this out, and our future is going to be amazing.",
+            "time": "2:40 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Absolutely. We have each other, and that's the most important thing. Our love and commitment will create a beautiful life for our growing family. I'm excited for the journey ahead!",
+            "time": "2:45 PM",
+            "type": "received"
+          }
+        ]
+               
       },
       {
         "id": "2",
@@ -96,37 +115,38 @@
         },
         "messages":[
           {
-          "message": "Hi, its me. Ive missed you",
-          "time": "10:25 AM",
-          "type": "received"
-          },
-          {
-            "message": "Okay, you dont have to be mean",
-            "time": "10:30 AM",
+            "message": "Hey, how's it going?",
+            "time": "11:15 AM",
             "type": "received"
           },
           {
-            "message": "Okay, I wont tewxt you again",
-            "time": "10:40 AM",
+            "message": "Hi there! I've been good, thanks for asking.",
+            "time": "11:20 AM",
+            "type": "sent"
+          },
+          {
+            "message": "That's great to hear! What have you been up to lately?",
+            "time": "11:25 AM",
             "type": "received"
-          },        
-        {
-        "message": "New phone, who dis?",
-        "time": "10:26 AM",
-        "type": "sent"
-        },
-        {
-          "message": "But I want to!",
-          "time": "10:33 AM",
-          "type": "sent"
-          
-        },
-        {
-          "message": "I would like that!",
-          "time": "10:45 AM",
-          "type": "sent"
-        }        
-    ]},
+          },
+          {
+            "message": "Not much, just been busy with work. How about you?",
+            "time": "11:30 AM",
+            "type": "sent"
+          },
+          {
+            "message": "I've been traveling a lot recently. It's been quite an adventure!",
+            "time": "11:35 AM",
+            "type": "received"
+          },
+          {
+            "message": "Wow, that sounds amazing! Any favorite destinations?",
+            "time": "11:40 AM",
+            "type": "sent"
+          }
+        ]
+        
+},
       {
         "id": "3",
         "name": "David Wangari",
@@ -158,37 +178,32 @@
         },
         "messages":[
           {
-          "message": "Hi, its me. Ive missed you",
-          "time": "10:25 AM",
-          "type": "received"
+            "message": "Hey, did you watch that new movie everyone is talking about?",
+            "time": "6:45 PM",
+            "type": "sent"
           },
           {
-            "message": "Okay, you dont have to be mean",
-            "time": "10:30 AM",
+            "message": "No, not yet. Is it any good?",
+            "time": "6:50 PM",
             "type": "received"
           },
           {
-            "message": "Okay, I wont tewxt you again",
-            "time": "10:40 AM",
+            "message": "I thought it was excellent! The plot and acting were top-notch.",
+            "time": "6:55 PM",
+            "type": "sent"
+          },
+          {
+            "message": "That's great to hear. I'll definitely check it out then.",
+            "time": "7:00 PM",
             "type": "received"
-          },        
-        {
-        "message": "New phone, who dis?",
-        "time": "10:26 AM",
-        "type": "sent"
-        },
-        {
-          "message": "But I want to!",
-          "time": "10:33 AM",
-          "type": "sent"
-          
-        },
-        {
-          "message": "I would like that!",
-          "time": "10:45 AM",
-          "type": "sent"
-        }        
-    ]
+          },
+          {
+            "message": "Let me know what you think after watching it!",
+            "time": "7:05 PM",
+            "type": "sent"
+          }
+        ]
+        
       },
       {
         "id": "4",
@@ -221,37 +236,181 @@
         },
         "messages":[
           {
-          "message": "Hi, its me. Ive missed you",
-          "time": "10:25 AM",
-          "type": "received"
+            "message": "Hey, how have you been?",
+            "time": "9:00 AM",
+            "type": "received"
           },
           {
-            "message": "Okay, you dont have to be mean",
+            "message": "I've been good, thanks for asking. How about you?",
+            "time": "9:05 AM",
+            "type": "sent"
+          },
+          {
+            "message": "I've been a bit busy lately with work, but otherwise doing well.",
+            "time": "9:10 AM",
+            "type": "received"
+          },
+          {
+            "message": "I can understand. Work can be demanding sometimes.",
+            "time": "9:15 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Definitely. But it's also rewarding when things fall into place.",
+            "time": "9:20 AM",
+            "type": "received"
+          },
+          {
+            "message": "Absolutely! Seeing the results of your hard work is satisfying.",
+            "time": "9:25 AM",
+            "type": "sent"
+          },
+          {
+            "message": "By the way, have you heard about that new restaurant downtown?",
+            "time": "9:30 AM",
+            "type": "sent"
+          },
+          {
+            "message": "No, I haven't. What's special about it?",
+            "time": "9:35 AM",
+            "type": "received"
+          },
+          {
+            "message": "They serve a fusion of different cuisines, and the ambience is fantastic.",
+            "time": "9:40 AM",
+            "type": "sent"
+          },
+          {
+            "message": "That sounds intriguing! We should plan a visit sometime.",
+            "time": "9:45 AM",
+            "type": "received"
+          },
+          {
+            "message": "Definitely! I'll check their availability and let you know.",
+            "time": "9:50 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Great, looking forward to it!",
+            "time": "9:55 AM",
+            "type": "received"
+          },
+          {
+            "message": "Hey, did you catch the latest episode of that TV series we've been watching?",
+            "time": "10:00 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Not yet, I've been meaning to catch up. Is it a good one?",
+            "time": "10:05 AM",
+            "type": "received"
+          },
+          {
+            "message": "It's amazing! So many plot twists and unexpected turns.",
+            "time": "10:10 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Sounds intriguing! I'll make sure to watch it soon.",
+            "time": "10:15 AM",
+            "type": "received"
+          },
+          {
+            "message": "Let me know what you think once you've seen it!",
+            "time": "10:20 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Hey, I've been thinking about our upcoming vacation. Any ideas where we should go?",
+            "time": "10:25 AM",
+            "type": "received"
+          },
+          {
+            "message": "I've been researching some beach destinations. How about a tropical getaway?",
             "time": "10:30 AM",
+            "type": "sent"
+          },
+          {
+            "message": "That sounds like a perfect plan! I could use some sun and relaxation.",
+            "time": "10:35 AM",
             "type": "received"
           },
           {
-            "message": "Okay, I wont tewxt you again",
+            "message": "Great! I'll start looking for the best deals and accommodations.",
             "time": "10:40 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Thanks for taking care of the arrangements. I appreciate it!",
+            "time": "10:45 AM",
             "type": "received"
-          },        
-        {
-        "message": "New phone, who dis?",
-        "time": "10:26 AM",
-        "type": "sent"
-        },
-        {
-          "message": "But I want to!",
-          "time": "10:33 AM",
-          "type": "sent"
-          
-        },
-        {
-          "message": "I would like that!",
-          "time": "10:45 AM",
-          "type": "sent"
-        }        
-    ]
+          },
+          {
+            "message": "No problem at all. It's going to be an amazing trip!",
+            "time": "10:50 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Hey, have you seen the latest movie that everyone is talking about?",
+            "time": "10:55 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Not yet. Is it worth watching?",
+            "time": "11:00 AM",
+            "type": "received"
+          },
+          {
+            "message": "Definitely! It's a must-see. The performances are outstanding.",
+            "time": "11:05 AM",
+            "type": "sent"
+          },
+          {
+            "message": "I'll make sure to catch it then. Thanks for the recommendation!",
+            "time": "11:10 AM",
+            "type": "received"
+          },
+          {
+            "message": "You're welcome! Let me know how you like it.",
+            "time": "11:15 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Hey, I've been thinking about trying out a new hobby. Any suggestions?",
+            "time": "11:20 AM",
+            "type": "received"
+          },
+          {
+            "message": "How about painting? It's a great way to express your creativity.",
+            "time": "11:25 AM",
+            "type": "sent"
+          },
+          {
+            "message": "That sounds interesting! I've always admired beautiful artwork.",
+            "time": "11:30 AM",
+            "type": "received"
+          },
+          {
+            "message": "Give it a try! You might discover a hidden talent.",
+            "time": "11:35 AM",
+            "type": "sent"
+          },
+          {
+            "message": "I'll definitely consider it. Thanks for the suggestion!",
+            "time": "11:40 AM",
+            "type": "received"
+          },
+          {
+            "message": "You're welcome! Let me know if you need any art supplies recommendations.",
+            "time": "11:45 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Sure, I'll reach out to you. Thanks again!",
+            "time": "11:50 AM",
+            "type": "received"
+          }
+        ]        
       },
       {
         "id": "5",
@@ -284,38 +443,57 @@
         },
         "messages":[
           {
-          "message": "Hi, its me. Ive missed you",
-          "time": "10:25 AM",
-          "type": "received"
-          },
-          {
-            "message": "Okay, you dont have to be mean",
-            "time": "10:30 AM",
+            "message": "Hey, long time no see! How have you been?",
+            "time": "2:00 PM",
             "type": "received"
           },
           {
-            "message": "Okay, I wont tewxt you again",
-            "time": "10:40 AM",
+            "message": "I've been good, thanks! How about you?",
+            "time": "2:05 PM",
+            "type": "sent"
+          },
+          {
+            "message": "I've been keeping busy with work and some personal projects.",
+            "time": "2:10 PM",
             "type": "received"
-          },        
-        {
-        "message": "New phone, who dis?",
-        "time": "10:26 AM",
-        "type": "sent"
-        },
-        {
-          "message": "But I want to!",
-          "time": "10:33 AM",
-          "type": "sent"
-          
-        },
-        {
-          "message": "I would like that!",
-          "time": "10:45 AM",
-          "type": "sent"
-        }        
-    ]
-      },
+          },
+          {
+            "message": "That's great! What kind of projects are you working on?",
+            "time": "2:15 PM",
+            "type": "sent"
+          },
+          {
+            "message": "I'm actually developing a mobile app for a local startup.",
+            "time": "2:20 PM",
+            "type": "received"
+          },
+          {
+            "message": "Wow, that sounds exciting! I hope it turns out to be a success.",
+            "time": "2:25 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Thank you! Fingers crossed for a positive outcome.",
+            "time": "2:30 PM",
+            "type": "received"
+          },
+          {
+            "message": "Hey, have you tried that new restaurant that opened in town?",
+            "time": "2:35 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Not yet, but I've heard good things about it. Planning to go soon.",
+            "time": "2:40 PM",
+            "type": "received"
+          },
+          {
+            "message": "Let me know how it is once you've been there. I'm curious!",
+            "time": "2:45 PM",
+            "type": "sent"
+          }
+        ]
+              },
       {
         "id": "6",
         "name": "Grace Wanjiku",
@@ -347,37 +525,52 @@
         },
         "messages":[
           {
-          "message": "Hi, its me. Ive missed you",
-          "time": "10:25 AM",
-          "type": "received"
+            "message": "Hey, guess what? I watched this amazing movie last night.",
+            "time": "7:00 PM",
+            "type": "sent"
           },
           {
-            "message": "Okay, you dont have to be mean",
-            "time": "10:30 AM",
+            "message": "Oh, really? What was it about?",
+            "time": "7:05 PM",
             "type": "received"
           },
           {
-            "message": "Okay, I wont tewxt you again",
-            "time": "10:40 AM",
+            "message": "It was a romantic drama, and there was this heartbreaking breakup scene.",
+            "time": "7:10 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Oh no, I can't handle breakup scenes. They always make me emotional.",
+            "time": "7:15 PM",
             "type": "received"
-          },        
-        {
-        "message": "New phone, who dis?",
-        "time": "10:26 AM",
-        "type": "sent"
-        },
-        {
-          "message": "But I want to!",
-          "time": "10:33 AM",
-          "type": "sent"
-          
-        },
-        {
-          "message": "I would like that!",
-          "time": "10:45 AM",
-          "type": "sent"
-        }        
-    ]
+          },
+          {
+            "message": "I know what you mean. This one was so well-acted, it felt incredibly real.",
+            "time": "7:20 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Did it have a happy ending or was it a total tearjerker?",
+            "time": "7:25 PM",
+            "type": "received"
+          },
+          {
+            "message": "It was definitely a tearjerker. The ending left me with mixed emotions.",
+            "time": "7:30 PM",
+            "type": "sent"
+          },
+          {
+            "message": "I don't think I'm emotionally prepared to watch something like that right now.",
+            "time": "7:35 PM",
+            "type": "received"
+          },
+          {
+            "message": "I totally understand. It's always good to choose movies based on your mood.",
+            "time": "7:40 PM",
+            "type": "sent"
+          }
+        ]
+        
       },
       {
         "id": "7",
@@ -410,37 +603,62 @@
         },
         "messages":[
           {
-          "message": "Hi, its me. Ive missed you",
-          "time": "10:25 AM",
-          "type": "received"
+            "message": "Hey, have you started preparing for our class presentation on the dating app project?",
+            "time": "10:00 AM",
+            "type": "sent"
           },
           {
-            "message": "Okay, you dont have to be mean",
+            "message": "Yes, I've been working on the slides. We should highlight the features and user experience.",
+            "time": "10:05 AM",
+            "type": "received"
+          },
+          {
+            "message": "Absolutely! Let's start with an introduction to the app and explain why we chose React for development.",
+            "time": "10:10 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Good idea. We can then showcase the login/signup process and the profile creation flow.",
+            "time": "10:15 AM",
+            "type": "received"
+          },
+          {
+            "message": "Definitely. We should emphasize the user interface design and how it enhances the overall experience.",
+            "time": "10:20 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Agreed. We can also discuss the matching algorithm and how it suggests potential matches to users.",
+            "time": "10:25 AM",
+            "type": "received"
+          },
+          {
+            "message": "That's a crucial aspect. Additionally, we can demonstrate the chat functionality for users to connect with each other.",
             "time": "10:30 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Right. And let's not forget to mention the responsive design and mobile compatibility of our app.",
+            "time": "10:35 AM",
             "type": "received"
           },
           {
-            "message": "Okay, I wont tewxt you again",
+            "message": "Absolutely. We want to highlight that our app provides a seamless experience across different devices.",
             "time": "10:40 AM",
+            "type": "sent"
+          },
+          {
+            "message": "For the conclusion, let's summarize the key features and the challenges we faced during development.",
+            "time": "10:45 AM",
             "type": "received"
-          },        
-        {
-        "message": "New phone, who dis?",
-        "time": "10:26 AM",
-        "type": "sent"
-        },
-        {
-          "message": "But I want to!",
-          "time": "10:33 AM",
-          "type": "sent"
-          
-        },
-        {
-          "message": "I would like that!",
-          "time": "10:45 AM",
-          "type": "sent"
-        }        
-    ]
+          },
+          {
+            "message": "Sounds like a solid plan. We'll wrap up by answering any questions from the class. We got this!",
+            "time": "10:50 AM",
+            "type": "sent"
+          }
+        ]
+        
       },
       {
         "id": "8",
@@ -473,37 +691,47 @@
         },
         "messages":[
           {
-          "message": "Hi, its me. Ive missed you",
-          "time": "10:25 AM",
-          "type": "received"
+            "message": "Hey, guess what? I saw your profile on the dating app, and I really liked it!",
+            "time": "5:00 PM",
+            "type": "sent"
           },
           {
-            "message": "Okay, you dont have to be mean",
-            "time": "10:30 AM",
+            "message": "Oh, really? That's so sweet of you to say! I'm glad you liked my profile.",
+            "time": "5:05 PM",
             "type": "received"
           },
           {
-            "message": "Okay, I wont tewxt you again",
-            "time": "10:40 AM",
+            "message": "Your interests and hobbies align perfectly with mine. We should definitely chat more!",
+            "time": "5:10 PM",
+            "type": "sent"
+          },
+          {
+            "message": "I noticed the same! It's great to find someone who shares common interests. Let's chat and get to know each other better!",
+            "time": "5:15 PM",
             "type": "received"
-          },        
-        {
-        "message": "New phone, who dis?",
-        "time": "10:26 AM",
-        "type": "sent"
-        },
-        {
-          "message": "But I want to!",
-          "time": "10:33 AM",
-          "type": "sent"
-          
-        },
-        {
-          "message": "I would like that!",
-          "time": "10:45 AM",
-          "type": "sent"
-        }        
-    ]
+          },
+          {
+            "message": "Absolutely! How about we grab a coffee sometime and continue the conversation in person?",
+            "time": "5:20 PM",
+            "type": "sent"
+          },
+          {
+            "message": "That sounds lovely! I'd love to meet up and see where this connection leads. Let's plan it!",
+            "time": "5:25 PM",
+            "type": "received"
+          },
+          {
+            "message": "Great! I'll message you with some available dates and we can finalize the details. Looking forward to it!",
+            "time": "5:30 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Sounds like a plan! I'll keep an eye out for your message. Excited to meet you soon!",
+            "time": "5:35 PM",
+            "type": "received"
+          }
+        ]
+        
       },
       {
         "id": "9",
@@ -536,37 +764,57 @@
         },
         "messages":[
           {
-          "message": "Hi, its me. Ive missed you",
-          "time": "10:25 AM",
-          "type": "received"
+            "message": "Hey, I just realized we're in the same city! We should totally meet up for dinner sometime.",
+            "time": "7:00 PM",
+            "type": "sent"
           },
           {
-            "message": "Okay, you dont have to be mean",
-            "time": "10:30 AM",
+            "message": "Oh, really? That's a pleasant surprise! I'd love to meet up and catch up over dinner.",
+            "time": "7:05 PM",
             "type": "received"
           },
           {
-            "message": "Okay, I wont tewxt you again",
-            "time": "10:40 AM",
+            "message": "Perfect! There's this new restaurant that I've been wanting to try. How about we go there?",
+            "time": "7:10 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Sounds exciting! I'm always up for trying new places. What kind of cuisine do they offer?",
+            "time": "7:15 PM",
             "type": "received"
-          },        
-        {
-        "message": "New phone, who dis?",
-        "time": "10:26 AM",
-        "type": "sent"
-        },
-        {
-          "message": "But I want to!",
-          "time": "10:33 AM",
-          "type": "sent"
-          
-        },
-        {
-          "message": "I would like that!",
-          "time": "10:45 AM",
-          "type": "sent"
-        }        
-    ]
+          },
+          {
+            "message": "It's a fusion restaurant with a mix of Asian and Mediterranean flavors. The reviews are great!",
+            "time": "7:20 PM",
+            "type": "sent"
+          },
+          {
+            "message": "That sounds delicious! I'm already looking forward to it. When should we go?",
+            "time": "7:25 PM",
+            "type": "received"
+          },
+          {
+            "message": "How about this Friday? It gives us time to plan and look forward to it.",
+            "time": "7:30 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Friday works for me! Let's meet at 7 PM. Should I make a reservation?",
+            "time": "7:35 PM",
+            "type": "received"
+          },
+          {
+            "message": "That would be great! Make a reservation for two under my name. Can't wait to see you!",
+            "time": "7:40 PM",
+            "type": "sent"
+          },
+          {
+            "message": "Consider it done! I'm really looking forward to our dinner. See you on Friday!",
+            "time": "7:45 PM",
+            "type": "received"
+          }
+        ]
+        
       },
       {
         "id": "10",
@@ -599,37 +847,57 @@
         },
         "messages":[
           {
-          "message": "Hi, its me. Ive missed you",
-          "time": "10:25 AM",
-          "type": "received"
+            "message": "Hey, I just have to say, last night was absolutely amazing!",
+            "time": "9:00 AM",
+            "type": "sent"
           },
           {
-            "message": "Okay, you dont have to be mean",
-            "time": "10:30 AM",
+            "message": "I couldn't agree more! It was such a fantastic night. I had a blast!",
+            "time": "9:05 AM",
             "type": "received"
           },
           {
-            "message": "Okay, I wont tewxt you again",
-            "time": "10:40 AM",
+            "message": "The energy, the music, everything was just perfect. I'm still on a high from it!",
+            "time": "9:10 AM",
+            "type": "sent"
+          },
+          {
+            "message": "I know what you mean. The atmosphere was electric, and the music had everyone dancing!",
+            "time": "9:15 AM",
             "type": "received"
-          },        
-        {
-        "message": "New phone, who dis?",
-        "time": "10:26 AM",
-        "type": "sent"
-        },
-        {
-          "message": "But I want to!",
-          "time": "10:33 AM",
-          "type": "sent"
-          
-        },
-        {
-          "message": "I would like that!",
-          "time": "10:45 AM",
-          "type": "sent"
-        }        
-    ]
+          },
+          {
+            "message": "And that surprise performance by the special guest? I couldn't believe it!",
+            "time": "9:20 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Right? It was mind-blowing! I'll never forget that moment. Such an incredible experience.",
+            "time": "9:25 AM",
+            "type": "received"
+          },
+          {
+            "message": "Absolutely. We were lucky to be part of such a memorable night. It exceeded all expectations!",
+            "time": "9:30 AM",
+            "type": "sent"
+          },
+          {
+            "message": "It's the kind of night you wish could last forever. I'm so grateful for the memories we made.",
+            "time": "9:35 AM",
+            "type": "received"
+          },
+          {
+            "message": "Me too. It's moments like these that make life so special. Here's to many more incredible nights!",
+            "time": "9:40 AM",
+            "type": "sent"
+          },
+          {
+            "message": "Cheers to that! Let's keep embracing the magic and creating unforgettable experiences together!",
+            "time": "9:45 AM",
+            "type": "received"
+          }
+        ]
+        
       }
     ]
   }
