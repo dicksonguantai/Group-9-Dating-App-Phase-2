@@ -8,12 +8,9 @@ function NavBar({cards, setCards}) {
     }
 
 
-    function handleFilter(e){
-        const filter = cards.filter(item=>item.location.includes(e.target.value))
-        setCards(filter)
-    }
+    
   return (
-    <div>
+    <div >
         <nav style={{ marginTop:"10px"}}>
             <div style={{background:"", marginLeft:"10px", display:"flex"}}>
             <NavLink exact to="main"
@@ -37,12 +34,12 @@ function NavBar({cards, setCards}) {
                 Blog
             </NavLink> */}
             <NavLink to="/logout"
-            style={{marginRight:"10px", textDecoration:"none", color:"#6f0d11"}}
+            style={{marginRight:"20px", textDecoration:"none", color:"#6f0d11"}}
             onClick={handleSignout}>
-                Signout
+                <button className='icon-wrapper2'>Signout</button>
+                {/* Signout */}
             </NavLink >
-            <label style={{marginLeft:"150px"}}>Search location:</label>
-            <input type='search' placeholder="Location"  style={{marginLeft:"10px" ,background:""}}onChange={handleFilter}/>
+           
             </div>
             <hr style={{marginTop:"20px"}}></hr>
         </nav>

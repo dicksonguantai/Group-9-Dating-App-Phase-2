@@ -10,7 +10,7 @@
         "location": "Nairobi",
         "bio": "I love exploring new places and trying different cuisines.",
         "photos": [
-          "https://i.pinimg.com/736x/35/da/3f/35da3f74621a36575e91ecf4b84e13d7--gorgeous-black-men-human-resources.jpg",
+          "https://picsum.photos/id/237/200/300",
           "https://picsum.photos/id/237/200/300"
         ],
         "height": 180,
@@ -74,7 +74,7 @@
         "location": "Mombasa",
         "bio": "Passionate about yoga and exploring new destinations.",
         "photos": [
-          "https://th.bing.com/th/id/R.24fd95d6e7b02bcc3605166e6bf1dbc0?rik=EiO4aExDxSKsxA&pid=ImgRaw&r=0",
+          "https://example.com/photo3.jpg",
           "https://example.com/photo4.jpg"
         ],
         "height": 165,
@@ -136,7 +136,7 @@
         "location": "Nairobi",
         "bio": "Passionate about sports and exploring different cultures.",
         "photos": [
-          "https://th.bing.com/th/id/OIP.o0XtCozeSYOI3AlNQ3-lewAAAA?pid=ImgDet&w=400&h=400&rs=1",
+          "https://example.com/photo5.jpg",
           "https://example.com/photo6.jpg"
         ],
         "height": 175,
@@ -199,7 +199,7 @@
         "location": "Mombasa",
         "bio": "An artist who enjoys immersing in books and creating beautiful artwork.",
         "photos": [
-          "https://th.bing.com/th/id/OIP.Ic9WgRIRzqY4aqTF0NW0fwHaEL?pid=ImgDet&rs=1",
+          "https://example.com/photo7.jpg",
           "https://example.com/photo8.jpg"
         ],
         "height": 160,
@@ -262,7 +262,7 @@
         "location": "Nairobi",
         "bio": "A tech enthusiast who enjoys experimenting with new recipes and watching movies.",
         "photos": [
-          "https://thumbs.dreamstime.com/b/smiling-black-man-7647638.jpg",
+          "https://example.com/photo9.jpg",
           "https://example.com/photo10.jpg"
         ],
         "height": 178,
@@ -325,7 +325,7 @@
         "location": "Nakuru",
         "bio": "Passionate about capturing beautiful moments through photography and exploring new dance forms.",
         "photos": [
-          "https://i.pinimg.com/736x/dc/ea/ed/dceaedff180a7303e4c18cddd93d44b0.jpg",
+          "https://example.com/photo11.jpg",
           "https://example.com/photo12.jpg"
         ],
         "height": 170,
@@ -388,7 +388,7 @@
         "location": "Mombasa",
         "bio": "A gamer and technology enthusiast who enjoys listening to music.",
         "photos": [
-          "https://thumbs.dreamstime.com/b/portrait-moody-young-black-man-wearing-fur-hood-30407970.jpg",
+          "https://example.com/photo13.jpg",
           "https://example.com/photo14.jpg"
         ],
         "height": 175,
@@ -451,7 +451,7 @@
         "location": "Nairobi",
         "bio": "An artist who finds joy in painting, reading, and listening to music.",
         "photos": [
-          "https://s3.amazonaws.com/freestock-prod/450/freestock_304243829.jpg",
+          "https://example.com/photo15.jpg",
           "https://example.com/photo16.jpg"
         ],
         "height": 163,
@@ -514,7 +514,7 @@
         "location": "Nairobi",
         "bio": "Passionate about sports, music, and experimenting with new recipes.",
         "photos": [
-          "https://st2.depositphotos.com/5624298/9276/i/950/depositphotos_92763718-stock-photo-attractive-black-guy.jpg",
+          "https://example.com/photo17.jpg",
           "https://example.com/photo18.jpg"
         ],
         "height": 180,
@@ -577,7 +577,7 @@
         "location": "Nanyuki",
         "bio": "Passionate about capturing beautiful moments through photography and exploring new destinations through travel.",
         "photos": [
-          "https://www.allgigs.co.uk/images/object/ARTIST/86601/Vanessa_Haynes-1-400-400-100-crop.jpeg",
+          "https://example.com/photo19.jpg",
           "https://example.com/photo20.jpg"
         ],
         "height": 168,
